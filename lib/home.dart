@@ -31,43 +31,43 @@ class Home extends StatelessWidget{
             
             ListTile(
               title: Text('Facials'),
-              trailing: Icon(Icons.face),
+              trailing: Icon(Icons.face, color: Colors.purpleAccent,),
               onTap: (){},
             ),
            
              ListTile(
               title: Text('Eyebrows'),
-              trailing: Icon(Icons.remove_red_eye),
+              trailing: Icon(Icons.remove_red_eye, color: Colors.purpleAccent,),
               onTap: (){},
             ),
             ListTile(
               title: Text('Mascara'),
-              trailing: Icon(Icons.local_florist),
+              trailing: Icon(Icons.local_florist, color: Colors.purpleAccent,),
               onTap: (){},
             ),
             ListTile(
               title: Text('Lipsticks'),
-              trailing: Icon(Icons.opacity),
+              trailing: Icon(Icons.opacity, color: Colors.purpleAccent,),
               onTap: (){},
             ),
             ListTile(
               title: Text('Facescrub'),
-              trailing: Icon(Icons.mood),
+              trailing: Icon(Icons.mood, color: Colors.purpleAccent,),
               onTap: (){},
             ),
             ListTile(
-              title: Text('Acnes'),
-              trailing: Icon(Icons.lens),
+              title: Text('Dealing with Acnes'),
+              trailing: Icon(Icons.lens, color: Colors.purpleAccent,),
               onTap: (){},
             ),
             ListTile(
               title: Text('Nails couture'),
-              trailing: Icon(Icons.brush),
+              trailing: Icon(Icons.brush, color: Colors.purpleAccent,),
               onTap: (){},
             ),
              ListTile(
               title: Text('Dos and Donts'),
-              trailing: Icon(Icons.book),
+              trailing: Icon(Icons.library_books , color: Colors.purpleAccent,),
               onTap: (){},
             ),
           ],
