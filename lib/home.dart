@@ -11,7 +11,14 @@ class Home extends StatelessWidget{
         title: Text('MakeupBuddy', style: TextStyle(fontSize: 25.0),),
         centerTitle: true,
       ),
-      body: Container(),
+      body: Container(
+       child: Image.asset('assets/shelf.jpg',
+       fit: BoxFit.cover,
+       height: double.infinity,
+       width: double.infinity,
+       alignment: Alignment.center,
+      ),
+      ),
       drawer: Drawer(
         child: ListView(
           children: <Widget>[
