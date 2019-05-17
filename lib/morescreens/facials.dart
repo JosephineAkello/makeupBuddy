@@ -18,11 +18,11 @@ class Facials extends StatelessWidget{
               text: 'Foundation',
             ),
             Tab(
-              icon: Icon(Icons.local_offer),
+              icon: Icon(Icons.keyboard_hide),
               text: 'Concealors',
             ),
             Tab(
-              icon: Icon(Icons.local_offer),
+              icon: Icon(Icons.beach_access),
               text: 'Contuoring',
             ),
           ],
