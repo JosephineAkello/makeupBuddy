@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'foundation.dart';
+import 'concelors.dart';
+import 'contuors.dart';
 
 class Facials extends StatelessWidget{
   Widget build(context){
@@ -28,7 +31,9 @@ class Facials extends StatelessWidget{
         ),
         body: TabBarView(
           children: <Widget>[
-
+            Foundation(),
+            Concelors(),
+            Contuors(),
           ],
         ),
       ));
