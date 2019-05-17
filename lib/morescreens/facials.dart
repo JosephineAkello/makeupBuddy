@@ -5,7 +5,9 @@ import 'contuors.dart';
 
 class Facials extends StatelessWidget{
   Widget build(context){
-    return DefaultTabController(
+    return MaterialApp(
+      theme: ThemeData(primaryColor: Colors.lightBlue[100]),
+      home:DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: AppBar(
@@ -35,6 +37,7 @@ class Facials extends StatelessWidget{
             Concelors(),
             Contuors(),
           ],
+        ),
         ),
       ));
   }
