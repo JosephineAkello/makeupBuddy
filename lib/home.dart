@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'morescreens/facials.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
@@ -38,7 +39,9 @@ class Home extends StatelessWidget {
                   Icons.face,
                   color: Colors.purpleAccent,
                 ),
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Facials()));
+                },
               ),
               ListTile(
                 title: Text('Eyebrows'),
