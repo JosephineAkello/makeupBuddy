@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'morescreens/facials.dart';
-import 'morescreens/concelors.dart';
+import 'morescreens/eyebrows.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
@@ -59,7 +59,7 @@ class HomeScreen extends StatelessWidget {
               ),
              onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Concelors()));
+                    MaterialPageRoute(builder: (context) => Eyebrows()));
               },
             ),
             ListTile(
