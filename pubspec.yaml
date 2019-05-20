@@ -62,6 +62,11 @@ flutter:
      - assets/finalfoundation.jpg
      - assets/spreadfoundation.jpg
      - assets/smallamount.jpeg
+     - assets/faceshapes.jpg
+     - assets/eyebrowshapes.jpg
+     - assets/howtogromeyebrows.jpg
+     - assets/eyebrows.jpg
+     - assets/waxing.jpeg
      
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
