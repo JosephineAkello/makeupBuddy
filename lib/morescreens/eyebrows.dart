@@ -74,8 +74,8 @@ class Eyebrows extends StatelessWidget {
             subtitle: Column(
               children: <Widget>[
                 
-            Image.asset(''),
-            Text('Check these amazing eyebrow shaping kits'),
+            Image.asset('assets/shapingkit.jpg'),
+            Text('Check these amazing eyebrow shaping kits, some of them are stensils and brow Zings'),
               ],
             ),
           )),
