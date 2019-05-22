@@ -9,10 +9,14 @@ class EyebrowShape extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           ListTile(
-            title: Text(
+            title:  
+              Padding(
+                padding: EdgeInsets.only(top: 10.0),
+             child:Text(
               '1st Step, Wash face regularly',
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
+             ),
             subtitle: Padding(
               padding: EdgeInsets.only(top: 10.0),
               child: Image.asset('assets/washface.jpg'),
@@ -23,10 +27,15 @@ class EyebrowShape extends StatelessWidget {
               '2.Find an ideal brow',
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
-            subtitle: Image.asset(
-              'assets/eyebrowshapes.jpg',
-              height: 400.0,
-            ),
+            subtitle: Column(children: [
+              Padding(
+                padding: EdgeInsets.only(top: 10.0),
+              ),
+              Image.asset(
+                'assets/eyebrowshapes.jpg',
+                height: 400.0,
+              ),
+            ]),
           ),
           ListTile(
             title: Text(
@@ -38,6 +47,9 @@ class EyebrowShape extends StatelessWidget {
                 padding: EdgeInsets.only(top: 10.0),
               ),
               Image.asset('assets/faceshapes.jpg'),
+              SizedBox(
+                height: 10.0,
+              ),
               Text(
                   'Here is a list of what you should consider before shaping your eyebrows tp suit your taste:'),
               Text('Oval    : soft angled eyebrowshape\n'),
@@ -61,7 +73,13 @@ class EyebrowShape extends StatelessWidget {
             ),
             subtitle: Column(
               children: [
+                Padding(
+                  padding: EdgeInsets.only(top: 10.0),
+                ),
                 Image.asset('assets/outline.jpeg'),
+                SizedBox(
+                  height: 10.0,
+                ),
                 Text(
                     'Using an  eyepencil, draw the bottom part of your brows, then draw the top of your eyebrows to suit your desired shape')
               ],
@@ -73,8 +91,14 @@ class EyebrowShape extends StatelessWidget {
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
               ),
               subtitle: Column(
-                children: <Widget>[
-                  Image.asset(' assets/filleye.jpeg'),
+                children: [
+                  Padding(
+                    padding: EdgeInsets.only(top: 10.0),
+                  ),
+                  Image.asset('assets/filleye.jpeg'),
+                  SizedBox(
+                    height: 10.0,
+                  ),
                   Text(
                       'Fill in the outlined brow with eyepencil using your desired color'),
                 ],
@@ -86,7 +110,13 @@ class EyebrowShape extends StatelessWidget {
             ),
             subtitle: Column(
               children: [
-                Image.asset('assets/eyebrows.jpg'),
+                Padding(
+                  padding: EdgeInsets.only(top: 10.0),
+                ),
+                Image.asset('assets/eyebrowfinal.jpg'),
+                SizedBox(
+                  height: 10.0,
+                ),
                 Text(
                     'The above shows the final look on the steps it takes to reach the desired shape')
               ],
@@ -94,14 +124,23 @@ class EyebrowShape extends StatelessWidget {
           ),
           ListTile(
               title: Text(
-                '7. Maintain the brows by plucking regularly ',
+                '8. Maintain the brows by plucking regularly ',
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
               ),
               subtitle: Column(
-                children: <Widget>[
+                children: [
+                  Padding(
+                    padding: EdgeInsets.only(top: 10.0),
+                  ),
                   Image.asset('assets/plucking.jpg'),
+                  SizedBox(
+                    height: 10.0,
+                  ),
                   Text(
-                      'Maintain plucking your eyebrows regularly to achieve a less bushy eyebrows with your desired shape, do not overpluck')
+                      'Maintain plucking your eyebrows regularly to achieve a less bushy eyebrows with your desired shape, do not overpluck'),
+                  SizedBox(
+                    height: 10.0,
+                  ),
                 ],
               ))
         ],
