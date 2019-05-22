@@ -14,14 +14,16 @@ class Eyebrows extends StatelessWidget {
           Card(
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),
-            color: Colors.lightBlue[100],
             child: ListTile(
                 title: Text(
                   '1st, consider the shape of your eyebrows',
                   style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
                 ),
                 subtitle: Column(
-                  children: <Widget>[
+                  children: [
+                    Padding(
+                      padding: EdgeInsets.only(top: 10.0),
+                    ),
                     Text(
                         'Make sure your eyebrows shape matches your face shape'),
                     Image.asset('assets/faceshapes.jpg'),
@@ -36,16 +38,21 @@ class Eyebrows extends StatelessWidget {
                   ],
                 )),
           ),
+          SizedBox(
+            height: 20.0,
+          ),
           Card(
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),
-            color: Colors.lightBlue[100],
             child: ListTile(
               title: Text(
                 '2. Eyebrows waxing',
                 style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
               ),
               subtitle: Column(children: [
+                Padding(
+                  padding: EdgeInsets.only(top: 10.0),
+                ),
                 Image.asset('assets/waxing.jpeg'),
                 Text(
                     'While waxing,a warm wax is thinly applied with a wooden spatula to the hairs that will be removed, a paper strip is then applied directly over the area with the wax, gentle pressure is applied to ensure the hairs in the wax stick to the paper, the paper is then swiftly pulled away, pulling the hairs out directly from the root. '),
@@ -65,23 +72,31 @@ class Eyebrows extends StatelessWidget {
               ]),
             ),
           ),
+          SizedBox(
+            height: 20.0,
+          ),
           Card(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20.0)),
-              color: Colors.lightBlue[100],
               child: ListTile(
                 title: Text(
                   '3. Eyebrows shaping kits',
                   style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
                 ),
                 subtitle: Column(
-                  children: <Widget>[
+                  children: [
+                    Padding(
+                      padding: EdgeInsets.only(top: 10.0),
+                    ),
                     Image.asset('assets/shapingkit.jpg'),
                     Text(
                         'Check these amazing eyebrow shaping kits, some of them are stensils and brow Zings'),
                   ],
                 ),
               )),
+          SizedBox(
+            height: 20.0,
+          ),
           Card(
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),
@@ -92,7 +107,7 @@ class Eyebrows extends StatelessWidget {
               },
               icon: Icon(Icons.navigate_next),
               label: Text(
-                'Check out how to shape eyebrows',
+                'How to shape eyebrows',
                 style: TextStyle(
                     fontSize: 20.0,
                     fontWeight: FontWeight.bold,
