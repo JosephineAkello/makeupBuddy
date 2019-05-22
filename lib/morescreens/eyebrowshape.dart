@@ -41,19 +41,44 @@ import 'package:flutter/material.dart';
            ),
             ListTile(
              title: Text('4. Use tweezers to pluck unwanted hairs', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
-             subtitle: Image.asset(''),
+             subtitle: Image.asset('assets/tweezers.jpg'),
            ),
             ListTile(
              title: Text('5. Outline the shape you want', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
-             subtitle: Image.asset(''),
+             subtitle: Column(
+               children: [
+                 Image.asset('assets/outline.jpeg'),
+                 Text('Using an  eyepencil, draw the bottom part of your brows, then draw the top of your eyebrows to suit your desired shape')],
+           ),
            ),
             ListTile(
              title: Text('6. Fill in the shape', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
-             subtitle: Image.asset(''),
+             subtitle: Column(
+               children: <Widget>[
+                 Image.asset(' assets/filleye.jpeg'),
+                 Text('Fill in the outlined brow with eyepencil using your desired color'),
+               ],
+             )
+             
            ),
             ListTile(
+             title: Text('7. Final look should be ' ,style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
+             subtitle: Column(
+               children : [
+                 Image.asset('assets/eyebrows.jpg'),
+                 Text('The above shows the final look on the steps it takes to reach the desired shape')
+               ],
+               ),
+                ),
+            ListTile(
              title: Text('7. Maintain the brows by plucking regularly ' ,style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),),
-             subtitle: Image.asset(''),
+             subtitle: Column(
+               children: <Widget>[
+               Image.asset('assets/plucking.jpg'),
+               Text('Maintain plucking your eyebrows regularly to achieve a less bushy eyebrows with your desired shape, do not overpluck')
+               ],
+             )
+            
            )
          ],
        ),
