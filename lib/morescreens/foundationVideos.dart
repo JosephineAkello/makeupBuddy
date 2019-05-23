@@ -8,6 +8,7 @@ class FoundationVideos extends StatefulWidget {
 }
 
 class FoundationVideosState extends State<FoundationVideos> {
+  
   VideoPlayerController _controller;
 
   Widget build(BuildContext context) {
