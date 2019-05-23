@@ -11,7 +11,8 @@ class Foundation extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.more),
         onPressed: () {
-          Navigator.push(context, MaterialPageRoute(builder: (context)=> FoundationVideos()));
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => FoundationVideos()));
         },
       ),
       body: ListView(
