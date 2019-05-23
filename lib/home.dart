@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'morescreens/facials.dart';
 import 'morescreens/eyebrows.dart';
+import 'morescreens/acnes.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
@@ -92,7 +93,10 @@ class HomeScreen extends StatelessWidget {
                 Icons.lens,
                 color: Colors.purpleAccent,
               ),
-              onTap: () {},
+              onTap: () {
+                 Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Acnes()));
+              },
             ),
             ListTile(
               title: Text('Nails couture'),
