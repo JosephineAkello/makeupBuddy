@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'concelorsVideo.dart';
 
 class Concelors extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -101,7 +102,12 @@ class Concelors extends StatelessWidget {
                         fontSize: 20.0,
                         color: Colors.white),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => ConcelorsVideo()));
+                  },
                 )),
           ),
         ],
