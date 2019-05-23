@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
  import 'package:youtube_player/youtube_player.dart';
 
- class ConcelorsVideo extends StatelessWidget{
+ class ConcelorsVideo extends StatefulWidget{
+createState(){
+  return ConcelorsVideoState();
+}
+ }
+ class ConcelorsVideoState extends State<ConcelorsVideo>{
    VideoPlayerController _controller;
 
    Widget build(BuildContext context) {
