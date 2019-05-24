@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'eyebrowshape.dart';
+import 'eyebrowwaxing.dart';
 
 class Eyebrows extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -59,7 +60,9 @@ class Eyebrows extends StatelessWidget {
                 RaisedButton(
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.0)),
-                  onPressed: () {},
+                  onPressed: () {
+                   Navigator.push(context, MaterialPageRoute(builder: (context)=> EyebrowWaxing())); 
+                  },
                   child: Text(
                     'Learn more..',
                     style: TextStyle(
