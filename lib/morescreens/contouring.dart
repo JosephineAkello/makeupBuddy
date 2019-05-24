@@ -59,6 +59,9 @@ class Contuors extends StatelessWidget {
                   'Apply foundation darker than your skin tone your contour in the shape of a 3, starting from your forehead, coming in just'
                   'under your cheekbones and going down towards your chin. These are the places your face would naturally be shadowed from the sun.'),
               Image.asset('assets/blending.JPG'),
+              SizedBox(
+                height: 10.0,
+              ),
               Text(
                   "The next step is blending  to make sure to 'set' your makeup with a translucent powder (a powder that goes on clear )so that your makeup won't easily wipe off. This is only if you use cream/foundation to contour. If you use powder to contour, you do not need to add another layer of translucent powder."),
               SizedBox(
