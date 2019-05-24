@@ -26,13 +26,22 @@ class Contuors extends StatelessWidget {
                   'Blending brush/ sponge\n'
                   'Highlighters\n'
                   'Optional : transluscent powder/setting spray'),
-              Image.asset('assets/faceshapes.jpg'),
+              SizedBox(
+                height: 10.0,
+              ),
+              Text(
+                'Let get started!',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+              ),
               SizedBox(
                 height: 10.0,
               ),
               Text(
                   'Before starting out contouring, find the perfect shape of your face because for each face shape, there is a slightly different placement of the highlight and contour.'),
-              Image.asset('assets/colorsconcealors.jpg'),
+              SizedBox(
+                height: 10.0,
+              ),
+              Image.asset('assets/faceshapes.jpg'),
               SizedBox(
                 height: 10.0,
               ),
@@ -41,7 +50,7 @@ class Contuors extends StatelessWidget {
               SizedBox(
                 height: 10.0,
               ),
-              Image.asset('assets/lighterfoundation.jpg'),
+              Image.asset('assets/colorsconcealors.jpg'),
               SizedBox(
                 height: 10.0,
               ),
@@ -51,14 +60,17 @@ class Contuors extends StatelessWidget {
               SizedBox(
                 height: 10.0,
               ),
-              Image.asset('assets/darkerfoundation.png'),
+              Image.asset('assets/lighterfoundation.jpg'),
               SizedBox(
                 height: 10.0,
               ),
               Text(
                   'Apply foundation darker than your skin tone your contour in the shape of a 3, starting from your forehead, coming in just'
                   'under your cheekbones and going down towards your chin. These are the places your face would naturally be shadowed from the sun.'),
-              Image.asset('assets/blending.JPG'),
+              SizedBox(
+                height: 10.0,
+              ),
+              Image.asset('assets/darkerfoundation.png'),
               SizedBox(
                 height: 10.0,
               ),
@@ -67,7 +79,7 @@ class Contuors extends StatelessWidget {
               SizedBox(
                 height: 10.0,
               ),
-              Image.asset('assets/highlighter.jpeg'),
+              Image.asset('assets/blending.JPG'),
               SizedBox(
                 height: 10.0,
               ),
@@ -77,12 +89,16 @@ class Contuors extends StatelessWidget {
               SizedBox(
                 height: 10.0,
               ),
-              Image.asset('assets/finalcontour.jpg'),
+              Image.asset('assets/highlighter.jpeg'),
               SizedBox(
                 height: 10.0,
               ),
               Text(
                   'Now you can finish the rest of your makeup! With practice, you will learn what is best for your own skin type and color over time, place your desired contour shape'),
+              SizedBox(
+                height: 10.0,
+              ),
+              Image.asset('assets/finalcontour.jpg'),
             ])));
   }
 }
