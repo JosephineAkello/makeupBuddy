@@ -61,6 +61,9 @@ class Contuors extends StatelessWidget {
               Image.asset('assets/blending.JPG'),
               Text(
                   "The next step is blending  to make sure to 'set' your makeup with a translucent powder (a powder that goes on clear )so that your makeup won't easily wipe off. This is only if you use cream/foundation to contour. If you use powder to contour, you do not need to add another layer of translucent powder."),
+              SizedBox(
+                height: 10.0,
+              ),
               Image.asset('assets/highlighter.jpeg'),
               SizedBox(
                 height: 10.0,
