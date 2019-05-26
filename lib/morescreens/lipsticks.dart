@@ -12,7 +12,7 @@ class Lipsticks extends StatelessWidget {
           SizedBox(
             height: 200,
             child: ListView(
-                //  physics: ClampingScrollPhysics(),
+                  physics: ClampingScrollPhysics(),
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
                 padding: EdgeInsets.only(
@@ -40,67 +40,67 @@ class Lipsticks extends StatelessWidget {
           Card(
             child: ListTile(
               title: Image.asset('assets/rosepink.jpg'),
-              subtitle: Text('Rose pink lipsticks'),
+              subtitle: Text('Rose pink lipsticks',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/copperbrown.jpg'),
-              subtitle: Text('Copper brown'),
+              subtitle: Text('Copper brown',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/taupelipsticks.jpg'),
-              subtitle: Text('Taupe lipsticks'),
+              subtitle: Text('Taupe lipsticks',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/fuschialipsticks.jpg'),
-              subtitle: Text('Fuschia Lipsticks'),
+              subtitle: Text('Fuschia Lipsticks',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/chocolatebrown.png'),
-              subtitle: Text('ChocolateBrown lipsticks'),
+              subtitle: Text('ChocolateBrown lipsticks',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/peachlipsticks.jpg'),
-              subtitle: Text('Peach Lipsticks'),
+              subtitle: Text('Peach Lipsticks',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/bronzelipsticks.jpg'),
-              subtitle: Text('Bronze Lipsticks'),
+              subtitle: Text('Bronze Lipsticks',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/magentalipsticks.jpg'),
-              subtitle: Text('Magenta Lipsticks'),
+              subtitle: Text('Magenta Lipsticks',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/nudelipsticks.jpeg'),
-              subtitle: Text('Nude Lipsticks'),
+              subtitle: Text('Nude Lipsticks',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/redlipsticks.jpg'),
-              subtitle: Text('Red Lipsticks'),
+              subtitle: Text('Red Lipsticks',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
           Card(
             child: ListTile(
               title: Image.asset('assets/funnylips.jpg'),
-              subtitle: Text('Crazy look'),
+              subtitle: Text('Crazy look',style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),),
             ),
           ),
         ])));
