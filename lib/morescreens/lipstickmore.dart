@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'lipsticksguides.dart';
 
 class Morelipsticks extends StatelessWidget {
   Widget build(context) {
@@ -13,43 +14,75 @@ class Morelipsticks extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             RaisedButton(
-              shape: BeveledRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+              shape: BeveledRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0)),
               padding: EdgeInsets.all(30.0),
               color: Colors.pink,
-              child: Text('Guides on how to apply lipsticks', style: TextStyle(color: Colors.white,fontSize: 18.0),),
-              onPressed: (){},
+              child: Text(
+                'Guides on how to apply lipsticks',
+                style: TextStyle(color: Colors.white, fontSize: 18.0),
+              ),
+              onPressed: () {
+               Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => LipsticksGuides()));
+              },
             ),
-            SizedBox(height: 50.0,),
-            RaisedButton(
-              shape: BeveledRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
-              padding: EdgeInsets.all(30.0),
-              color: Colors.pink,
-               child: Text('Applying lipstick without a lipliner', style: TextStyle(color: Colors.white,fontSize: 18.0),),
-               onPressed: (){},
+            SizedBox(
+              height: 50.0,
             ),
-             SizedBox(height: 50.0,),
             RaisedButton(
-              shape: BeveledRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+              shape: BeveledRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0)),
               padding: EdgeInsets.all(30.0),
               color: Colors.pink,
-               child: Text('Applying lipsticks on small lips', style: TextStyle(color: Colors.white,fontSize: 18.0),),
-               onPressed: (){},
+              child: Text(
+                'Applying lipstick without a lipliner',
+                style: TextStyle(color: Colors.white, fontSize: 18.0),
+              ),
+              onPressed: () {},
             ),
-             SizedBox(height: 50.0,),
-            RaisedButton(
-              shape: BeveledRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
-              padding: EdgeInsets.all(30.0),
-              color: Colors.pink,
-               child: Text('Applying lipsticks on dark lips', style: TextStyle(color: Colors.white,fontSize: 18.0),),
-               onPressed: (){},
+            SizedBox(
+              height: 50.0,
             ),
-             SizedBox(height: 50.0,),
             RaisedButton(
-              shape: BeveledRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+              shape: BeveledRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0)),
               padding: EdgeInsets.all(30.0),
               color: Colors.pink,
-               child: Text('Guides on how to remove lipsticks',style: TextStyle(color: Colors.white,fontSize: 18.0),),
-               onPressed: (){},),
+              child: Text(
+                'Applying lipsticks on small lips',
+                style: TextStyle(color: Colors.white, fontSize: 18.0),
+              ),
+              onPressed: () {},
+            ),
+            SizedBox(
+              height: 50.0,
+            ),
+            RaisedButton(
+              shape: BeveledRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0)),
+              padding: EdgeInsets.all(30.0),
+              color: Colors.pink,
+              child: Text(
+                'Applying lipsticks on dark lips',
+                style: TextStyle(color: Colors.white, fontSize: 18.0),
+              ),
+              onPressed: () {},
+            ),
+            SizedBox(
+              height: 50.0,
+            ),
+            RaisedButton(
+              shape: BeveledRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0)),
+              padding: EdgeInsets.all(30.0),
+              color: Colors.pink,
+              child: Text(
+                'Guides on how to remove lipsticks',
+                style: TextStyle(color: Colors.white, fontSize: 18.0),
+              ),
+              onPressed: () {},
+            ),
           ],
         ),
       ),
