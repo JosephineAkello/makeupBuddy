@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'lipsticksguides.dart';
+import 'lipliner.dart';
+import 'lipsticksmall.dart';
 
 class Morelipsticks extends StatelessWidget {
   Widget build(context) {
@@ -23,7 +25,7 @@ class Morelipsticks extends StatelessWidget {
                 style: TextStyle(color: Colors.white, fontSize: 18.0),
               ),
               onPressed: () {
-               Navigator.push(context,
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => LipsticksGuides()));
               },
             ),
@@ -39,7 +41,10 @@ class Morelipsticks extends StatelessWidget {
                 'Applying lipstick without a lipliner',
                 style: TextStyle(color: Colors.white, fontSize: 18.0),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Lipliner()));
+              },
             ),
             SizedBox(
               height: 50.0,
@@ -53,7 +58,10 @@ class Morelipsticks extends StatelessWidget {
                 'Applying lipsticks on small lips',
                 style: TextStyle(color: Colors.white, fontSize: 18.0),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => SmallLips()));
+              },
             ),
             SizedBox(
               height: 50.0,
