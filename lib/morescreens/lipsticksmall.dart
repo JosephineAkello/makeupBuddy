@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../videos/smalllipsvideo.dart';
 
 class SmallLips extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -65,7 +66,9 @@ class SmallLips extends StatelessWidget {
               'watch video tutorial',
               style: TextStyle(color: Colors.white),
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> SmallLipsVideo()));
+            },
           ))
         ]),
       ),
