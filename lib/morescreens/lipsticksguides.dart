@@ -28,6 +28,7 @@ class LipsticksGuides extends StatelessWidget {
             SizedBox(
               height: 15.0,
             ),
+            Image.asset('assets/lipstickguide.jpg'),
             Text(
               'Step 1: Prepare your lips',
               style: TextStyle(
