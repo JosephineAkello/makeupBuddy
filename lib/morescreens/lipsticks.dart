@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'lipstickmore.dart';
 
 class Lipsticks extends StatelessWidget {
   Widget build(context) {
@@ -6,6 +7,13 @@ class Lipsticks extends StatelessWidget {
         appBar: AppBar(
           title: Text('Lipsticks'),
           backgroundColor: Colors.lightBlue[100],
+        ),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.navigate_next),
+          backgroundColor: Colors.purple,
+          onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=> Morelipsticks()));
+          },
         ),
         body: SingleChildScrollView(
             child: Column(mainAxisSize: MainAxisSize.min, children: [
