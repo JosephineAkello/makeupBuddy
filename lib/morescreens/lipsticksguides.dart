@@ -7,7 +7,7 @@ class LipsticksGuides extends StatelessWidget {
         title: Text('How to apply Lipsticks'),
         backgroundColor: Colors.lightBlue[100],
       ),
-      body: Container(
+      body: SingleChildScrollView(
         padding: EdgeInsets.all(20.0),
         child: Column(
           children: <Widget>[
