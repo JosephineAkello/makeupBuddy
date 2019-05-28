@@ -7,7 +7,8 @@ class DarkLips extends StatelessWidget {
         title: Text('Applying Lipsticks on Dark lips'),
         backgroundColor: Colors.lightBlue[100],
       ),
-      body: Container(
+      body: SingleChildScrollView(
+        padding: EdgeInsets.only(bottom: 20.0, left: 20.0, right: 20.0),
         child: Column(
           children: <Widget>[
             Text(
