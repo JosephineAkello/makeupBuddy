@@ -58,7 +58,9 @@ class SmallLips extends StatelessWidget {
                   'Once you’ve applied your lipstick, make sure you highlight. Just like what highlighting does to your face by creating dimensions, highlighting makes your lips appear fuller.'),
             ),
           ),
-          SizedBox(height: 10.0,),
+          SizedBox(
+            height: 10.0,
+          ),
           Card(
               child: RaisedButton(
             color: Colors.teal,
@@ -67,7 +69,8 @@ class SmallLips extends StatelessWidget {
               style: TextStyle(color: Colors.white),
             ),
             onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context)=> SmallLipsVideo()));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => SmallLipsVideo()));
             },
           ))
         ]),
