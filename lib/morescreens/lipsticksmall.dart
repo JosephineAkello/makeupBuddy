@@ -8,7 +8,7 @@ class SmallLips extends StatelessWidget {
         title: Text('Applying lipsticks on small lips'),
         backgroundColor: Colors.lightBlue[100],
       ),
-      body: Container(
+      body: SingleChildScrollView(
         child: Column(children: [
           Text(
             'Step 1: Exfoliate your lips',
@@ -38,6 +38,7 @@ class SmallLips extends StatelessWidget {
             'Step 3: Use a lipliner',
             style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
           ),
+           SizedBox(height: 10.0),
           Card(
             color: Colors.tealAccent[50],
             child: Padding(
@@ -50,6 +51,7 @@ class SmallLips extends StatelessWidget {
             'Step 4: Higlight',
             style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
           ),
+           SizedBox(height: 10.0),
           Card(
             color: Colors.tealAccent[50],
             child: Padding(
@@ -63,7 +65,7 @@ class SmallLips extends StatelessWidget {
           ),
           Card(
               child: RaisedButton(
-            color: Colors.teal,
+            color: Colors.pink,
             child: Text(
               'watch video tutorial',
               style: TextStyle(color: Colors.white),
