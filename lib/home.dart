@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'morescreens/facials.dart';
 import 'morescreens/eyebrows.dart';
 import 'morescreens/acnes.dart';
+import 'morescreens/lipsticks.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
@@ -77,7 +78,10 @@ class HomeScreen extends StatelessWidget {
                 Icons.opacity,
                 color: Colors.purpleAccent,
               ),
-              onTap: () {},
+             onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Lipsticks()));
+              },
             ),
             ListTile(
               title: Text('Facescrub'),
