@@ -3,6 +3,7 @@ import 'lipsticksguides.dart';
 import 'lipliner.dart';
 import 'lipsticksmall.dart';
 import 'lipsdark.dart';
+import 'lipsticksremove.dart';
 
 class Morelipsticks extends StatelessWidget {
   Widget build(context) {
@@ -11,7 +12,7 @@ class Morelipsticks extends StatelessWidget {
         title: Text('More insights on Lipsticks'),
         backgroundColor: Colors.lightBlue[100],
       ),
-      body: Container(
+      body: SingleChildScrollView(
         padding: EdgeInsets.all(18.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -93,7 +94,9 @@ class Morelipsticks extends StatelessWidget {
                 'Guides on how to remove lipsticks',
                 style: TextStyle(color: Colors.white, fontSize: 18.0),
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> RemoveLipsticks()));
+              },
             ),
           ],
         ),
