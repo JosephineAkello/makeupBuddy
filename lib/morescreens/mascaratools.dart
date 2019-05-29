@@ -8,13 +8,13 @@ class MascaraTools extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
-          Text('Types of Mascara tools'),
+          Text('Types of Mascara tools', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
           ListTile(
-            title: Image.asset('name'),
-            subtitle: Text('1. Eyelash curler'),
+            title: Image.asset('assets/maskaratools.jpg'),
+            subtitle: Text('1. Eyelash curler', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
           ),
           ListTile(
-            title: Text('How to use Eye Curler'),
+            title: Text('How to use Eye Curler',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             subtitle: Text('These are metal tools that have clamps.'
                 'The clamps squeeze down and help to curl your eyelashes upwards.'
                 'You can make your eyelashes look longer, fuller, and thicker by'
@@ -23,12 +23,12 @@ class MascaraTools extends StatelessWidget {
           SizedBox(
             height: 10.0,
           ),
-          Text('Curling your eyebrows'),
+          Text('Curling your eyebrows',style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
           SizedBox(
             height: 10.0,
           ),
           ListTile(
-            title: Text('Get a high quality eyelash curler'),
+            title: Text('Get a high quality eyelash curler',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             subtitle: Text(
                 'There are many ways of curling eyelashes but some of them are: \n'
                 '1. Use a metallic curler rather than a plastic\n'
@@ -41,7 +41,7 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           ListTile(
-            title: Text('Hold the eyelash curler up to your eye'),
+            title: Text('Hold the eyelash curler up to your eye',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             subtitle: Text(
                 ' It might feel cold at first, but you will get used to it. However : \n'
                 'Some people recommend heating the curler with a hair dryer ahead of time.'
@@ -52,7 +52,7 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           ListTile(
-            title: Text('Open the eyelash clamps.'),
+            title: Text('Open the eyelash clamps.',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             subtitle: Text('Carefully place your eyelashes in between them :\n'
                 '1. Get as much of the lashes as you can between the clamps,'
                 'getting down to the base of each eyelash.\n'
@@ -63,7 +63,7 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           ListTile(
-            title: Text('Close the clamp on the eyelashes.'),
+            title: Text('Close the clamp on the eyelashes.',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             subtitle: Text('Hold it down for three seconds : \n'
                 "1. \b Don't squeeze the clamp shut for more than 3 seconds."
                 "This will crimp the lashes rather than curling them.\n"
@@ -75,7 +75,7 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           ListTile(
-            title: Text('Curl your lashes in 3 sections.'),
+            title: Text('Curl your lashes in 3 sections.',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             subtitle: Text(
                 'This will make sure you get all of them and that they will look as full and thick as possible. :\n'
                 '1. Start with the base of the lashes, taking care not to pinch the skin.\n'
@@ -85,13 +85,13 @@ class MascaraTools extends StatelessWidget {
           SizedBox(
             height: 10.0,
           ),
-          Image.asset('name'),
-          Text('2. Metal lash comb'),
+          Image.asset('assets/metalashcomb.jpg'),
+          Text('2. Metal lash comb',style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
           SizedBox(
             height: 10.0,
           ),
           ListTile(
-            title: Text('How to use a metal lash comb'),
+            title: Text('How to use a metal lash comb',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             subtitle: Text(
                 'The metal lash comb has thinner and sturdier teeth than it’s plastic counterpart,'
                 'allowing them to glide smoothly through your lashes.\n'
@@ -104,10 +104,13 @@ class MascaraTools extends StatelessWidget {
           SizedBox(
             height: 10.0,
           ),
-          Image.asset('name'),
-          Text('3. Eyelash serum'),
+          Image.asset('assets/lashserum.jpeg'),
+           SizedBox(
+            height: 10.0,
+          ),
+          Text('3. Eyelash serum',style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
           ListTile(
-            title: Text('How to use Eyelash Serum'),
+            title: Text('How to use Eyelash Serum',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             subtitle: Text(
                 'Lash serums will work differently on different people, the one that works so well for your cousin might be a dud for you.'
                 'The higher quality serums have more active ingredient so the results are a bit more reliable. '
