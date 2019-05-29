@@ -100,6 +100,18 @@ class MascaraTools extends StatelessWidget {
                 'After applying the mascara, place the ends of the teeth of the Eyelash Comb at the lash line and wiggle it few times with soft hand to get every lash in between the teeth of the comb. : \n'
                 '1. After you succeed, move the comb in outward direction to reach the end of your eyelash.\n'
                 '2. when the mascara is still wet, and you will find it adjusting and evenly distributing the mascara to get you the separate and beautiful eyelashes.'),
+          ),
+          SizedBox(
+            height: 10.0,
+          ),
+          Image.asset('name'),
+          Text('3. Eyelash serum'),
+          ListTile(
+            title: Text('How to use Eyelash Serum'),
+            subtitle: Text(
+                'Lash serums will work differently on different people, the one that works so well for your cousin might be a dud for you.'
+                'The higher quality serums have more active ingredient so the results are a bit more reliable. '
+                'How you apply an eyelash serum directly depends on the type of brush that the product comes with — usually, the applicator resembles a super thin paint brush. '),
           )
         ],
       ),
