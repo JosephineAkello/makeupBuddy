@@ -10,7 +10,7 @@ class MascaraTools extends StatelessWidget {
         children: <Widget>[
           Text('Types of Mascara tools', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
           ListTile(
-            title: Image.asset('assets/maskaratools.jpg'),
+            title: Image.asset('assets/mascaratools.jpg'),
             subtitle: Text('1. Eyelash curler', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
           ),
           ListTile(
