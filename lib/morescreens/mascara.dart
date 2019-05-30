@@ -10,7 +10,8 @@ class Mascara extends StatelessWidget {
         title: Text('Guides to applying Mascara Perfectly'),
         backgroundColor: Colors.lightBlue[100],
       ),
-      body: Container(
+      body: SingleChildScrollView(
+        padding: EdgeInsets.only(bottom: 20.0, left: 20.0, right: 20.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
