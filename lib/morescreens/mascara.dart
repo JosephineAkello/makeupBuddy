@@ -11,40 +11,72 @@ class Mascara extends StatelessWidget {
         backgroundColor: Colors.lightBlue[100],
       ),
       body: Container(
-        child: Column(children: [
-          Image.asset('assets/fakeeyelashes.jpg'),
-          Text('Mascara  Essentials'),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+          Image.asset('assets/mascara.jpg'),
+          SizedBox(
+            height: 10.0,
+          ),
+          Text(
+            'Mascara  Essentials',
+            style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
+          SizedBox(
+            height: 20.0,
+          ),
           RaisedButton(
+            padding: EdgeInsets.all(30.0),
             color: Colors.pink,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),
-            child: Text('Mascara tools',style: TextStyle(fontSize: 18.0,),),
+            child: Text(
+              'Mascara tools',
+              style: TextStyle(
+                fontSize: 20.0,
+              ),
+            ),
             onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> MascaraTools()));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => MascaraTools()));
             },
           ),
           SizedBox(
             height: 50.0,
           ),
           RaisedButton(
+             padding: EdgeInsets.all(30.0),
             color: Colors.pink,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),
-            child: Text('With natural eyelashes' ,style: TextStyle(fontSize: 18.0,),),
+            child: Text(
+              'Mascara with natural eyelashes',
+              style: TextStyle(
+                fontSize: 18.0,
+              ),
+            ),
             onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> NaturalMascara()));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => NaturalMascara()));
             },
           ),
           SizedBox(
             height: 50.0,
           ),
           RaisedButton(
+             padding: EdgeInsets.all(30.0),
             color: Colors.pink,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),
-            child: Text('Applying false eyelashes' ,style: TextStyle(fontSize: 18.0,),),
+            child: Text(
+              'Applying false eyelashes',
+              style: TextStyle(
+                fontSize: 18.0,
+              ),
+            ),
             onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context)=> FakeMascara()));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => FakeMascara()));
             },
           ),
         ]),
