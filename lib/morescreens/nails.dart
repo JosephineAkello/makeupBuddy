@@ -7,89 +7,128 @@ class Nails extends StatelessWidget {
           title: Text('Nails Couture'),
           backgroundColor: Colors.lightBlue[100],
         ),
+        floatingActionButton: FloatingActionButton(
+          backgroundColor: Colors.purple,
+          onPressed: (){},
+          child: Icon(Icons.beenhere),
+        ),
         body: InkWell(
           child: GridView.count(crossAxisCount: 2, children: <Widget>[
             Card(
               child: GridTile(
                 child: Image.asset('assets/glitters.jpg'),
-                footer: Text('data'),
+                footer:Container(
+                color: Colors.white24,
+                  child:Text('Glitters shade', style: TextStyle(fontWeight: FontWeight.bold),),
+              ),
               ),
             ),
             Card(
                 child: GridTile(
               child: Image.asset('assets/greenshade.jpg'),
-              footer: Text('data'),
+              footer:Container(
+                color: Colors.white24,
+                 child:Text('Green shade',style: TextStyle(fontWeight: FontWeight.bold),),
             )),
+            ),
             Card(
                 child: GridTile(
               child: Image.asset('assets/glazenails.jpg'),
-              footer: Text('data'),
-            )),
-            Card(
-                child: GridTile(
-              child: Image.asset('assets/milkywhite.jpg'),
-              footer: Text('data'),
-            )),
-            Card(
-                child: GridTile(
-              child: Image.asset('assets/yellownails.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+               color: Colors.white24,
+                  child:Text('Glaze nails',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
             Card(
                 child: GridTile(
               child: Image.asset('assets/midnightblue.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+                color: Colors.white24,
+                  child: Text('Midnight blue',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
+            Card(
+                child: GridTile(
+              child: Image.asset('assets/yellownails.jpg'),
+              footer: Container(
+               color: Colors.white24,
+                  child:Text('Yellow nails',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
+            Card(
+                child: GridTile(
+              child: Image.asset('assets/milkywhite.jpg'),
+              footer:Container(
+                 color: Colors.white24,
+                  child:Text('Milky white',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
             Card(
                 child: GridTile(
               child: Image.asset('assets/darkpeach.jpg'),
-              footer: Text('data'),
-            )),
+              footer: Container(
+                 color: Colors.white24,
+                  child:Text('Dark peach',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
             Card(
                 child: GridTile(
               child: Image.asset('assets/darkblue.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+                 color: Colors.white24,
+                  child: Text('Dark Blue',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
             Card(
                 child: GridTile(
               child: Image.asset('assets/brown.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+                 color: Colors.white24,
+                  child: Text('Brown shade',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
             Card(
                 child: GridTile(
               child: Image.asset('assets/blacknails.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+                 color: Colors.white24,
+                  child: Text('Black shade',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
             Card(
                 child: GridTile(
               child: Image.asset('assets/3dacrylic.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+                 color: Colors.white24,
+                  child:Text('3D acrylic shade',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
             Card(
                 child: GridTile(
               child: Image.asset('assets/whitenails.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+                color: Colors.white24,
+                  child: Text('White shade',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
             Card(
                 child: GridTile(
               child: Image.asset('assets/purple.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+                 color: Colors.white24,
+                  child: Text('Purple shade',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
              Card(
                 child: GridTile(
               child: Image.asset('assets/skyblue.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+                color: Colors.white24,
+                  child: Text('Sky blue shade',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
              Card(
                 child: GridTile(
               child: Image.asset('assets/rednails.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+               color: Colors.white24,
+                  child: Text('Red shade',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
              Card(
                 child: GridTile(
               child: Image.asset('assets/quiltednails.jpg'),
-              footer: Text('data'),
-            )),
+              footer:Container(
+                color: Colors.white24,
+                  child: Text('Quilted',style: TextStyle(fontWeight: FontWeight.bold),),
+            )),),
           ]),
         ));
   }
