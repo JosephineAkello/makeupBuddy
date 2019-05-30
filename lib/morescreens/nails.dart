@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'nailtools.dart';
 
 class Nails extends StatelessWidget {
   Widget build(context) {
@@ -9,7 +10,9 @@ class Nails extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.purple,
-          onPressed: (){},
+          onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=> NailTools()));
+          },
           child: Icon(Icons.beenhere),
         ),
         body: InkWell(
