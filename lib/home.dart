@@ -3,6 +3,7 @@ import 'morescreens/facials.dart';
 import 'morescreens/eyebrows.dart';
 import 'morescreens/acnes.dart';
 import 'morescreens/lipsticks.dart';
+import 'morescreens/mascara.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
@@ -70,7 +71,10 @@ class HomeScreen extends StatelessWidget {
                 Icons.local_florist,
                 color: Colors.purpleAccent,
               ),
-              onTap: () {},
+              onTap: () {
+                 Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Mascara()));
+              },
             ),
             ListTile(
               title: Text('Lipsticks'),
@@ -90,6 +94,7 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.purpleAccent,
               ),
               onTap: () {},
+
             ),
             ListTile(
               title: Text('Dealing with Acnes'),
