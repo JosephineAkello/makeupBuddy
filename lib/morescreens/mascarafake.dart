@@ -7,10 +7,10 @@ class FakeMascara extends StatelessWidget {
         title: Text('Applying mascara with Fake eyelashes'),
         backgroundColor: Colors.lightBlue[100],
       ),
-      body: Container(
+      body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Image.asset('assets/fakeyelashes.jpg'),
+            Image.asset('assets/fakeeyelashes.jpg'),
             Card(
                 child: ListTile(
               title: Text(
