@@ -12,7 +12,7 @@ class NaturalMascara extends StatelessWidget {
         padding: EdgeInsets.only(bottom: 20.0, left: 20.0, right: 20.0),
         child: Column(
           children: <Widget>[
-            Image.asset('assets/mascarapic.jpg'),
+            Image.asset('assets/maskarapic.jpg'),
             Text('Choose your Favorite Maskara',
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             Card(
@@ -30,6 +30,9 @@ class NaturalMascara extends StatelessWidget {
                   'If you’re planning to wear eyeshadow, eyeliner, or any other eye makeup, brush'
                   'it on before you do your mascara.This will ensure that you don’t smudge any of your mascara by trying to put other products on around it.'),
             ),
+            SizedBox(
+              height: 10.0,
+            ),
             Text('Curl your lashes first',
                 style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             Card(
@@ -37,12 +40,12 @@ class NaturalMascara extends StatelessWidget {
                   'Position the curler as close to the base of your lashes as possible without pinching your skin'
                   "If you don't have a curler or you're too afraid to use one, use your fingertips to push up and curl wet lashes."),
             ),
-            Text(
-                'Remove the wand from the mascara tube by twisting back and forth instead of pumping it up and down. ',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             SizedBox(
               height: 10.0,
             ),
+            Text(
+                'Remove the wand from the mascara tube by twisting back and forth instead of pumping it up and down. ',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             Card(
               child: Text(
                   'Twisting will allow the brush to pick up the mascara, which is what most people think they are doing when they pump the brush in the tube.'),
@@ -114,7 +117,8 @@ class NaturalMascara extends StatelessWidget {
             SizedBox(
               height: 10.0,
             ),
-            Text('Put mascara only on the roots of the lower lashes, ',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+            Text('Put mascara only on the roots of the lower lashes, ',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             Card(
               child: Text(
                   'Brushing on mascara on the full length of your lower lashes, from the roots to the tips,'
@@ -123,7 +127,8 @@ class NaturalMascara extends StatelessWidget {
             SizedBox(
               height: 10.0,
             ),
-            Text('Remove any mistakes with a cotton swab.',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+            Text('Remove any mistakes with a cotton swab.',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             Card(
               child: Text(
                   "If you get mascara on your face or eyelid, allow it to dry so you don't smear it and make things worse"
@@ -132,7 +137,8 @@ class NaturalMascara extends StatelessWidget {
             SizedBox(
               height: 10.0,
             ),
-            Text('De-clump with a clean mascara wand.',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+            Text('De-clump with a clean mascara wand.',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             Card(
               child: Text(
                   'Either use a disposable wand or repurpose an old one (wash it thoroughly with soap and water first).'
@@ -141,22 +147,25 @@ class NaturalMascara extends StatelessWidget {
             SizedBox(
               height: 10.0,
             ),
-            Text('Thicken your lashes even further with baby powder',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
+            Text('Thicken your lashes even further with baby powder',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             Card(
               child: Text(
                   "If you don't feel like you're getting the thick, voluminous lashes you want,"
                   "try this trick. Apply one coat of mascara , then dust your lashes with translucent powder or baby powder"),
             ),
-
-            Text('Remove your mascara every night with an eye makeup remover.',style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
-            
             SizedBox(
               height: 10.0,
             ),
+            Text('Remove your mascara every night with an eye makeup remover.',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
             Card(
               child: Text(
                   'It might not seem like a big deal, but it can dry out your lashes at night and cause them to become brittle and fall out'),
-            )
+            ),
+            SizedBox(
+              height: 10.0,
+            ),
           ],
         ),
       ),
