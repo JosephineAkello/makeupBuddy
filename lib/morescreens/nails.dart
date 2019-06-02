@@ -5,7 +5,7 @@ class Nails extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Nails Couture'),
+          title: Text('Nail polish Shades'),
           backgroundColor: Colors.lightBlue[100],
         ),
         floatingActionButton: FloatingActionButton(
