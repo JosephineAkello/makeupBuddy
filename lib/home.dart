@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'morescreens/facials.dart';
 import 'morescreens/eyebrows.dart';
-import 'morescreens/acnes.dart';
+import 'morescreens/acneproducts.dart';
 import 'morescreens/lipsticks.dart';
 import 'morescreens/mascara.dart';
+import 'morescreens/nails.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
@@ -104,7 +105,7 @@ class HomeScreen extends StatelessWidget {
               ),
               onTap: () {
                  Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Acnes()));
+                    MaterialPageRoute(builder: (context) => AcneProducts()));
               },
             ),
             ListTile(
@@ -113,7 +114,10 @@ class HomeScreen extends StatelessWidget {
                 Icons.brush,
                 color: Colors.purpleAccent,
               ),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Nails()));
+              },
             ),
             ListTile(
               title: Text('Dos and Donts'),
