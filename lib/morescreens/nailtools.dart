@@ -7,6 +7,11 @@ class NailTools extends StatelessWidget {
         title: Text('Nail Tools'),
         backgroundColor: Colors.lightBlue[100],
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        backgroundColor: Colors.purpleAccent,
+        child: Icon(Icons.blur_circular),
+      ),
       body: SingleChildScrollView(
          padding: EdgeInsets.only(
                     bottom: 20.0, top: 20.0, left: 20.0, right: 20.0),
