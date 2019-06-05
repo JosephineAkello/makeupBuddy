@@ -26,16 +26,20 @@ class Eyebrows extends StatelessWidget {
                       padding: EdgeInsets.only(top: 10.0),
                     ),
                     Text(
-                        'Make sure your eyebrows shape matches your face shape'),
+                        'Make sure your eyebrows shape matches your face'
+                         'shape'),
                     Image.asset('assets/faceshapes.jpg'),
                     Text(
                       'Thick eyebrows',
                     ),
                     Text(
-                        'If you have thick brows, you can cut/ shape them to match your taste, tidy up extra strands'),
+                        'If you have thick brows, you can cut/ shape them to'
+                         'match your taste, tidy up extra strands'),
+                         
                     Text('Thin eyebrows'),
-                    Text(
-                        'If you have thin brows, carefully groom them and fill them to have a perfect look, apply eyebrow gel to lay hairs flat and use tweezers to tidy up extra strands'),
+                    Text('If you have thin brows, carefully groom them and fill'
+                        'them to have a perfect look,apply eyebrow gel to lay'
+                        'hairs flat and use tweezers to tidy up extra strands'),
                   ],
                 )),
           ),
@@ -61,7 +65,10 @@ class Eyebrows extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.0)),
                   onPressed: () {
-                   Navigator.push(context, MaterialPageRoute(builder: (context)=> EyebrowWaxing())); 
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => EyebrowWaxing()));
                   },
                   child: Text(
                     'Learn more..',
