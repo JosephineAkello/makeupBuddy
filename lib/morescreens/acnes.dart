@@ -16,7 +16,9 @@ class Acnes extends StatelessWidget {
               height: 10.0,
             ),
             Text(
-              'No single person is ever happy about having acnes on their faces especially women, below are guides on how to deal with acnes when you encounter them',
+              'No single person is ever happy about having acnes on their faces'
+                  'especially women,below are guides on how to deal with acnes'
+                  'when you encounter them',
               style: TextStyle(),
             ),
             SizedBox(
@@ -30,7 +32,9 @@ class Acnes extends StatelessWidget {
               height: 10.0,
             ),
             Text(
-              'Acne is a chronic inflammatory skin condition that causes spots and pimples especially on the face, shoulders,back,neck,chest and upper arms ',
+              'Acne is a chronic inflammatory skin condition that causes spots'
+                  'and pimples especially on the face, shoulders,back,neck,'
+                  'chest and upper arms',
               style: TextStyle(),
             ),
             SizedBox(
