@@ -21,10 +21,13 @@ class NailGel extends StatelessWidget {
             ),
             Card(
               color: Colors.white70,
-              child: Text(
-                  'You must have clean, dry nails in order for gel polish to adhere correctly.'
-                  'After buffing your nail, use a lint free wipe soaked with 91% alcohol to '
-                  'cleanse your nails of any extra debris. Clean all the way to the cuticle and around the sides. If there is any debris on your nail, the gel polish will stick to it instead of sticking to your nail.'),
+              child:
+                  Text("""You must have clean, dry nails in order for gel polish
+                  to adhere correctly.After buffing your nail, use a lint
+                  free wipe soaked with 91% alcohol to cleanse your nails
+                  of any extra debris. Clean all the way to the cuticle and
+                  around the sides. If there is any debris on your nail, gel
+                  polish will stick to it instead of sticking to your nail."""),
             ),
             Text(
               'Step 2: File and shape your nails',
@@ -37,9 +40,12 @@ class NailGel extends StatelessWidget {
             Card(
               color: Colors.white70,
               child: Text(
-                  'To get the ultimate look from your at-home gel nails, start with the ultimate blank nail.'
-                  'Take the time to cut, file, and shape your nails. Before you cut them, decide what shape you want.'
-                  'Cut the basic shape and then file the tips. Finally, finish shaping by rounding the surface of your nails with a buffer '),
+                  """To get the ultimate look from your at-home gel nails, start
+                  with the ultimate blank nail. Take the time to cut, file,
+                  and shape your nails. Before you cut them, decide what shape
+                  you want. Cut the basic shape and then file the tips.Finally
+                  finish shaping by rounding the surface of your nails with a
+                  buffer """),
             ),
             Text(
               'Step 3: Remove Cuticle',
@@ -52,9 +58,12 @@ class NailGel extends StatelessWidget {
             Card(
               color: Colors.white70,
               child: Text(
-                  'Apply a cuticle remover around the base of your nails (on the cuticle area) Use a cuticle pusher to'
-                  'your cuticle pusher and gently push your cuticle back and off your nail surface, you shouldn’t press'
-                  'the nail pusher into the nail. Remove gently any excess oil or debris off your nail, use a cotton ball or gauze pad dipped in acetone.'),
+                  """Apply a cuticle remover around the base of your nails
+                  (on the cuticle area) Use a cuticle pusher to your cuticle
+                  pusher and gently push your cuticle back and off your nail
+                  surface,you shouldn’t press the nail pusher into the nail.
+                  Remove gently any excess oil or debris off your nail, use
+                  a cotton ball or gauze pad dipped in acetone."""),
             ),
             Text(
               'Step 4: Apply basecoat',
@@ -67,9 +76,11 @@ class NailGel extends StatelessWidget {
             Card(
               color: Colors.white70,
               child: Text(
-                  'Apply a very thin layer of your basecoat to your nails. For gel, you use a much thinner layer'
-                  "than you would with standard nail polish. Be careful when applying your base layer: you don’t"
-                  "want to get the gel on your fingers. Let your base layer dry for twice as long as recommended"),
+                  'Apply a very thin layer of your basecoat to your nails.'
+                  'For gel, you use a much thinner layer than you would with'
+                  'standard nail polish.Be careful when applying your base'
+                  "layer: you don’t want to get the gel on your fingers. "
+                  "Let your base layer dry for twice as long as recommended"),
             ),
             Text(
               'Step 5: Applying The Color',
@@ -152,7 +163,7 @@ class NailGel extends StatelessWidget {
                   'to avoid the cuticles and nail edges, but do cover all of the color. If you don’t, the color will look matte and'
                   'can be rubbed off throughout regular wear and tear. As long as it’s covered by the top coat, you are good to go'),
             ),
-              Text(
+            Text(
               'Step 10: Hydrate, Hydrate, Hydrate.',
               style: TextStyle(
                   fontSize: 20.0,
@@ -165,8 +176,7 @@ class NailGel extends StatelessWidget {
               child: Text(
                   'This is basically my mantra when it comes to gel polish. Anyone who has had damage from wearing gel polish probably'
                   'got it from improper removal or from dry cuticles and nails. As long as you remove gel polish correctly and hydrate,'
-                  'hydrate, hydrate, your nails will be as strong as ever.he color with the top coat. You still need'
-                 ),
+                  'hydrate, hydrate, your nails will be as strong as ever.he color with the top coat. You still need'),
             ),
           ],
         ),
