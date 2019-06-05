@@ -4,19 +4,31 @@ class NailEnhance extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Nail Enhancement tips'),
+        title: Text(
+          'Nail Enhancement tips',
+          style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+        ),
         backgroundColor: Colors.lightBlue[100],
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(30.0),
         child: Column(children: [
-          Text('A nail enhancement is any material that can add length'
-              'or strength to the natural nail. There are several options'
-              'for nail enhancements, but for our purposes, There are four'
-              'categories. Liquid and Powder, Hard and Soft Gels, Fiberglass'
-              '/Resin Wraps, and Dip Systems'),
-          Image.asset('name'),
-          Text('Required tools'),
+          Text("""A nail enhancement is any material that can add length
+              or strength to the natural nail. There are several options
+              for nail enhancements, but for our purposes, There are four
+              categories. Liquid and Powder, Hard and Soft Gels, Fiberglass
+              /Resin Wraps, and Dip Systems"""),
+          SizedBox(
+            height: 10.0,
+          ),
+          Image.asset('assets/artificialnails.jpg'),
+          SizedBox(
+            height: 10.0,
+          ),
+          Text(
+            'Required tools',
+            style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+          ),
           Text(' 1. Artificial tips: \n'
               'there are several types of nail tips available in market'
               'like white clear, colored, glitter, with design etc.These '
@@ -24,14 +36,17 @@ class NailEnhance extends StatelessWidget {
           Text('2. Nail glue: nail glues are easily available nowadays.\n'
               '3. Manicure kit: nail file, buffer, cuticle pusher and nipper.\n'
               '4. Scissors or nail tip cutter.'),
-          Text('Steps to Enhancing nail tips'),
+          Text(
+            'Steps to Enhancing nail tips',
+            style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
           SizedBox(
             height: 10.0,
           ),
           Text(
             'Step 1',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -45,7 +60,7 @@ class NailEnhance extends StatelessWidget {
           Text(
             'Step 2',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -57,7 +72,7 @@ class NailEnhance extends StatelessWidget {
           Text(
             'Step 3',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -70,7 +85,7 @@ class NailEnhance extends StatelessWidget {
           Text(
             'Step 4',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -83,7 +98,7 @@ class NailEnhance extends StatelessWidget {
           Text(
             'Step 5',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -99,7 +114,7 @@ class NailEnhance extends StatelessWidget {
           Text(
             'Step 6',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -114,7 +129,7 @@ class NailEnhance extends StatelessWidget {
           Text(
             'Step 7',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -130,7 +145,7 @@ class NailEnhance extends StatelessWidget {
           Text(
             'Step 8',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -144,7 +159,7 @@ class NailEnhance extends StatelessWidget {
           Text(
             'Step 9',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -161,7 +176,7 @@ class NailEnhance extends StatelessWidget {
           Text(
             'Step 10',
             style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 15.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.purple),
             textAlign: TextAlign.left,
@@ -171,14 +186,18 @@ class NailEnhance extends StatelessWidget {
               child:
                   Text('Clean your nail and apply the base. Apply nail polish'
                       'design; do nail art on the new long nails.')),
-          SizedBox(height: 10.0,),
-
+          SizedBox(
+            height: 10.0,
+          ),
           Text('It will need a little practice but you will learn very easily.'
               'To remove tips, simply soak then in acetone for 10 minutes and'
               'the tips will easily come off. You can remove and do different'
               'manicures on the same tips if you get bored after 2-3 days. I'
               'personally did 3-4 manicure on the same tips.'),
-          Image.asset('name'),
+          SizedBox(
+            height: 10.0,
+          ),
+          Image.asset('assets/artificialnails.jpg'),
         ]),
       ),
     );
