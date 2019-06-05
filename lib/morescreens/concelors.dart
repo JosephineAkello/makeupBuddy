@@ -22,7 +22,9 @@ class Concelors extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
                 ),
                 subtitle: Text(
-                    "Concealors help to hide pimples,dark spots or unevenness in skin. Its appropriate to analyze your skin and discover right color for you \n"
+                    "Concealors help to hide pimples,dark spots or unevenness"
+                    "in skin.Its appropriate to analyze your skin and discover"
+                    "right color for you \n"
                     "Here's a variety: \n"
                     "Green tinted  : used to reduce redness \n"
                     "Yellow tinted : used to brighten face \n"

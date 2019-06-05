@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'acnes.dart';
 
 class AcneProducts extends StatelessWidget {
   Widget build(context) {
@@ -6,6 +7,13 @@ class AcneProducts extends StatelessWidget {
       appBar: AppBar(
         title: Text('Acne skincare products'),
         backgroundColor: Colors.lightBlue[100],
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.blur_circular),
+        onPressed: () {
+          Navigator.push(
+              context, MaterialPageRoute(builder: (context) => Acnes()));
+        },
       ),
       body: InkWell(
           child: GridView.count(

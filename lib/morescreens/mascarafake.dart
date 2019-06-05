@@ -41,7 +41,7 @@ class FakeMascara extends StatelessWidget {
                 child: ListTile(
               title: Text(
                 '3. Wait for the Glue to Dry Slightly',
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               subtitle: Text(
                   "Let the glue dry for about 30 seconds. It'll make the lashes less"
@@ -54,17 +54,8 @@ class FakeMascara extends StatelessWidget {
                 child: ListTile(
               title: Text(
                 '4. Adhere the Strip to Your Lash Line',
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
-              subtitle: Text(
-                  'Using the tweezers again, put the lashes in place right where your eyeliner is and press them into the lash line'),
-            )),
-            SizedBox(
-              height: 10.0,
-            ),
-            Card(
-                child: ListTile(
-              title: Text('4. Adhere the Strip to Your Lash Line'),
               subtitle: Text(
                   'Using the tweezers again, put the lashes in place right where your eyeliner is and press them into the lash line'),
             )),
@@ -75,7 +66,7 @@ class FakeMascara extends StatelessWidget {
                 child: ListTile(
               title: Text(
                 '5. Hide Seams',
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               subtitle: Text(
                   "Extra eyeliner and another coat of mascara with tie it all together,"
@@ -88,7 +79,7 @@ class FakeMascara extends StatelessWidget {
                 child: ListTile(
               title: Text(
                 " Mascara with False Eyelashes Do’s: ",
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               subtitle: Text(
                   "It is recommended that you apply one thin coat of mascara to your natural"
@@ -109,7 +100,7 @@ class FakeMascara extends StatelessWidget {
                     title: Text(
                       'Mascara with False Eyelashes Don’ts:',
                       style:
-                          TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     ),
                     subtitle: Text(
                         'Waterproof mascara is made to stay on all day, and difficult to remove.'
