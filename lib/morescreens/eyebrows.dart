@@ -56,8 +56,13 @@ class Eyebrows extends StatelessWidget {
                   padding: EdgeInsets.only(top: 10.0),
                 ),
                 Image.asset('assets/waxing.jpeg'),
-                Text(
-                    'While waxing,a warm wax is thinly applied with a wooden spatula to the hairs that will be removed, a paper strip is then applied directly over the area with the wax, gentle pressure is applied to ensure the hairs in the wax stick to the paper, the paper is then swiftly pulled away, pulling the hairs out directly from the root. '),
+                Text('While waxing,a warm wax is thinly applied'
+                    'with a wooden spatula to the hairs that will be'
+                    'removed, a paper strip is then applied directly'
+                    'over the area with the wax, gentle pressure is applied '
+                    'to ensure the hairs in the wax stick to the paper, the'
+                    'paper is then swiftly pulled away, pulling the hairs '
+                    'out directly from the root. '),
                 RaisedButton(
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.0)),
@@ -96,8 +101,8 @@ class Eyebrows extends StatelessWidget {
                       padding: EdgeInsets.only(top: 10.0),
                     ),
                     Image.asset('assets/shapingkit.jpg'),
-                    Text(
-                        'Check these amazing eyebrow shaping kits, some of them are stensils and brow Zings'),
+                    Text('Check these amazing eyebrow shaping kits, some'
+                        'of them are stensils and brow Zings'),
                   ],
                 ),
               )),

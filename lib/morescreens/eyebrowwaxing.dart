@@ -8,7 +8,6 @@ class EyebrowWaxing extends StatefulWidget {
 }
 
 class EyebrowWaxingState extends State<EyebrowWaxing> {
-  
   VideoPlayerController _controller;
 
   Widget build(context) {

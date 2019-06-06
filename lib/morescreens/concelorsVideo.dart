@@ -7,7 +7,7 @@ createState(){
 }
  }
  class ConcelorsVideoState extends State<ConcelorsVideo>{
-   VideoPlayerController _controller;
+   //VideoPlayerController _controller;
 
    Widget build(BuildContext context) {
      return  Scaffold(
@@ -21,7 +21,7 @@ createState(){
            source: 'https://www.youtube.com/watch?v=WGIlfoKp0Qs',
            quality: YoutubeQuality.MEDIUM,
            callbackController: (controller){
-             _controller = controller;
+             //_controller = controller;
            },
 
          ),

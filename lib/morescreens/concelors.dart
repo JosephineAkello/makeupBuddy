@@ -34,18 +34,18 @@ class Concelors extends StatelessWidget {
           Card(
               color: Colors.orange[100],
               child: ListTile(
-                title: Text(
-                  'Decide on  your favorite type',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
-                ),
-                subtitle: Text(
-                    """There are different types of concealors like pencils,
-                     sticks and potted creams \n'
-                    'For large pores and oily skin, avoid cream concealors because they 
-                    make pore look bigger \n'
-                    'Look for liquid concealors as an alternative \n'
-                    'For acnes, use pencil concealors or cream concealors"""),
-              )),
+                  title: Text(
+                    'Decide on  your favorite type',
+                    style:
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+                  ),
+                  subtitle: Text(
+                      'There are different types of concealors like pencils,'
+                      'sticks and potted creams \n'
+                      'For large pores and oily skin, avoid cream concealors'
+                      'because they make pore look bigger \n'
+                      'Look for liquid concealors as an alternative \n'
+                      'For acnes, use pencil concealors or cream concealors'))),
           Card(
               color: Colors.yellow[100],
               child: ListTile(
@@ -54,8 +54,9 @@ class Concelors extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
                 ),
                 subtitle:
-                    Text("""Always wash your face before applying concealors \n
-                    Use makeup remover to get rid of any darkness around eyes"""),
+                    Text('Always wash your face before applying concealors \n'
+                        'Use makeup remover to get rid of any darkness around'
+                        'the eyes'),
               )),
           Card(
               color: Colors.green[100],
@@ -65,9 +66,11 @@ class Concelors extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
                 ),
                 subtitle: Text(
-                    """Apply the concealor in the shape of upside down triangle \n
-                    'Blend the concealer in around the edges, to eliminate an obvious change in tone between your skin and the concealer.\n'
-                    'Avoid using concealer past your smile line, as this will enhance any fine lines you may have"""),
+                    'Apply the concealor in  upside down shape of triangle \n'
+                    'Blend the concealer in around the edges, to eliminate an'
+                    'obvious change in tone between your skin and concealer.\n'
+                    'Avoid using concealer past your smile line,since it will'
+                    'enhance any fine lines you may have'),
               )),
           Card(
               color: Colors.blue[100],
@@ -77,8 +80,12 @@ class Concelors extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
                 ),
                 subtitle: Text(
-                    'If you have spots/ acnes dab concealors on top of each mark then blend softly outwards to your skin \n'
-                    'For acnes , avoid using fingers to blend concealors, Using your fingers may spread bacteria that will worsen your breakout, and it will melt the concealer, giving you less coverage. Instead, use a clean makeup brush.'),
+                    'If you have spots/ acnes dab concealors on top of each'
+                    'mark then blend softly outwards to your skin \n'
+                    'For acnes , avoid using fingers to blend concealors,'
+                    'Using your fingers may spread bacteria that will worsen'
+                    'your breakout, and it will melt the concealer, giving you'
+                    'less coverage. Instead, use a clean makeup brush.'),
               )),
           Card(
               color: Colors.indigo[100],
@@ -88,7 +95,8 @@ class Concelors extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
                 ),
                 subtitle: Text(
-                    'After covering all spots, add a layer of foundation over the concealor, spread the foundation on your face \n'
+                    'After covering all spots, add a layer of foundation'
+                    'over the concealor, spread the foundation on your face \n'
                     'Use a brush to reach inside corners of your eyes'),
               )),
           Card(
