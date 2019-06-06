@@ -78,7 +78,7 @@ class Morelipsticks extends StatelessWidget {
                 style: TextStyle(color: Colors.white, fontSize: 18.0),
               ),
               onPressed: () {
-                 Navigator.push(context,
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => DarkLips()));
               },
             ),
@@ -95,7 +95,8 @@ class Morelipsticks extends StatelessWidget {
                 style: TextStyle(color: Colors.white, fontSize: 18.0),
               ),
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> RemoveLipsticks()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => RemoveLipsticks()));
               },
             ),
           ],

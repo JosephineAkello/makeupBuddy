@@ -21,17 +21,19 @@ class Lipliner extends StatelessWidget {
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10.0),
-            Text(
-                'Rub your ring finger into the lip color of your choice and press this finger directly'
-                'onto your lips moving along the natural lip line. This way you achieve precision without a liner.'),
+            Text('Rub your ring finger into the lip color of your'
+                'choice and press this finger directly'
+                'onto your lips moving along the natural lip line.'
+                'This way you achieve precision without a liner.'),
             SizedBox(height: 10.0),
             Text(
               'Step 2: Finish the look',
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10.0),
-            Text(
-                'For the interiors of your lips, finish off by applying the color either directly from your lipstick tube or using a lip brush.'
+            Text('For the interiors of your lips, finish off by applying'
+                'the color either directly from your lipstick tube or'
+                'using a lip brush.'
                 'This can apply when someone is in a rush')
           ],
         ),

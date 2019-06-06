@@ -58,8 +58,8 @@ class Lipsticks extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text(
-                        ' This shade of lipstick looks good on anyone with any skin tone'),
+                    subtitle: Text(' This shade of lipstick looks good on'
+                        'anyone with any skin tone'),
                   ),
                 ),
               ],
@@ -77,8 +77,8 @@ class Lipsticks extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text(
-                        'Any skin tone can apply this but it looks appealing on dark women.'),
+                    subtitle: Text('Any skin tone can apply this but it'
+                        'looks appealing on dark women.'),
                   ),
                 ),
               ],
@@ -96,8 +96,9 @@ class Lipsticks extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text(
-                        'Those with lightly deeper complexion can apply this, looks good on them'),
+                    subtitle:
+                        Text('Those with lightly deeper complexion can apply'
+                            'this, looks good on them'),
                   ),
                 ),
               ],
@@ -116,7 +117,8 @@ class Lipsticks extends StatelessWidget {
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
                     subtitle: Text(
-                        'This shade is all inclusive, however those worried about pink lips can use this shade'),
+                        'This shade is all inclusive, however those worried'
+                        'about pink lips can use this shade'),
                   ),
                 ),
               ],
@@ -134,8 +136,9 @@ class Lipsticks extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text(
-                        'This shade looks natural on dark skinned color, it gives a sophisticated look'),
+                    subtitle:
+                        Text('This shade looks natural on dark skinned color,'
+                            'it gives a sophisticated look'),
                   ),
                 ),
               ],
@@ -153,8 +156,9 @@ class Lipsticks extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text(
-                        'This shade looks awesome on fair skinned people to complement their skin tone'),
+                    subtitle:
+                        Text('This shade looks awesome on fair skinned people'
+                            'to complement their skin tone'),
                   ),
                 ),
               ],
@@ -172,8 +176,8 @@ class Lipsticks extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text(
-                        'Looks elegant and its not shouting, any skintone can apply this shade'),
+                    subtitle: Text('Looks elegant and its not shouting,'
+                        'any skintone can apply this shade'),
                   ),
                 ),
               ],
@@ -209,8 +213,9 @@ class Lipsticks extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text(
-                        'If you are for simple, formal and soft look, you can go to nude lipsticks shade.'),
+                    subtitle:
+                        Text('If you are for simple, formal and soft look,'
+                            'you can go to nude lipsticks shade.'),
                   ),
                 )
               ],
@@ -228,8 +233,9 @@ class Lipsticks extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
-                    subtitle: Text(
-                        'Looks enticingly hot and seductive on dark women. However, those with fair skin can still apply.'),
+                    subtitle:
+                        Text('Looks enticingly hot and seductive on dark women.'
+                            'However, those with fair skin can still apply.'),
                   ),
                 ),
               ],
@@ -248,7 +254,9 @@ class Lipsticks extends StatelessWidget {
                           fontSize: 15.0, fontWeight: FontWeight.bold),
                     ),
                     subtitle: Text(
-                        'If you want a crazy look, you can apply these sets of shades, to give the creative apperance. This can be relevant during modelling competitions.'),
+                        'If you want a crazy look, you can apply these sets'
+                        'of shades, to give the creative apperance. This can'
+                        'be relevant during modelling competitions.'),
                   ),
                 ),
               ],

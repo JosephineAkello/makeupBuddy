@@ -11,9 +11,11 @@ class DarkLips extends StatelessWidget {
         padding: EdgeInsets.only(bottom: 20.0, left: 20.0, right: 20.0),
         child: Column(
           children: <Widget>[
-            Text(
-                'If you have dark, pigmented or discolored lips, with a few simple hacks,'
-                'you can still conquer your lip color. Do not shy away from light colors or sheer pinks because these tricks do work if you just put in some effort.'),
+            Text('If you have dark, pigmented or discolored lips,'
+                'with a few simple hacks,'
+                'you can still conquer your lip color. Do not'
+                'shy away from light colors or sheer pinks because'
+                'these tricks do work if you just put in some effort.'),
             Image.asset('assets/darklips.jpeg'),
             SizedBox(
               height: 10.0,
@@ -25,27 +27,34 @@ class DarkLips extends StatelessWidget {
             SizedBox(
               height: 10.0,
             ),
-            Text(
-                "Neutralizing your pigmented lips using a concealer that exactly matches your skin tone can help. 'Where there’s darkness,"
-                "there’s always concealer', so it’s not odd to use one for your lips. You will be amazed at the difference it makes."),
+            Text('Neutralizing your pigmented lips using a concealer'
+                'that exactly matches your skin tone can help.Where there’s'
+                'darkness there is always concealer'
+                'so it’s not odd to use one for your lips. You will'
+                'be amazed at the difference it makes.'),
             Text(
               'Step 2: Add some extra coverage',
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
-            Text(
-                'If a little concealer wasn’t of much help, you can dot a little more of the product onto your lips till you achieve your desired effect.'),
+            Text('If a little concealer wasn’t of much help,'
+                'you can dot a little more of the product onto your'
+                'lips till you achieve your desired effect.'),
             Text(
               'Step 3: Place a lipliner',
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
-            Text(
-                'Use a lip liner that goes with the lipstick color and carefully line your natural lip line making a cross or an ‘X’ right under the cupid’s bow to enhance the shape of your lips.'),
+            Text('Use a lip liner that goes with the lipstick color'
+                'and carefully line your natural lip line making a'
+                'cross or an ‘X’ right under the cupid’s bow to enhance'
+                'the shape of your lips.'),
             Text(
               ' Step 4: Layer the lipstick on',
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
-            Text(
-                'Apply your lipstick in layers if required. Use a non-glossy formula for better results. Also, those have a much greater staying power than creamy or glossy lipsticks.')
+            Text('Apply your lipstick in layers if required. Use a'
+                'non-glossy formula for better results. Also, those'
+                'have a much greater staying power than creamy or'
+                'glossy lipsticks.')
           ],
         ),
       ),

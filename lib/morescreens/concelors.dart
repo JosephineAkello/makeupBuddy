@@ -39,10 +39,12 @@ class Concelors extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
                 ),
                 subtitle: Text(
-                    'There are different types of concealors like pencils, sticks and potted creams \n'
-                    'For large pores and oily skin, avoid cream concealors because they make pore look bigger \n'
+                    """There are different types of concealors like pencils,
+                     sticks and potted creams \n'
+                    'For large pores and oily skin, avoid cream concealors because they 
+                    make pore look bigger \n'
                     'Look for liquid concealors as an alternative \n'
-                    'For acnes, use pencil concealors or cream concealors'),
+                    'For acnes, use pencil concealors or cream concealors"""),
               )),
           Card(
               color: Colors.yellow[100],
@@ -51,9 +53,9 @@ class Concelors extends StatelessWidget {
                   'Prepare your face',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
                 ),
-                subtitle: Text(
-                    'Always wash your face before applying concealors \n'
-                    'Use makeup remover to get rid of any darkness around eyes'),
+                subtitle:
+                    Text("""Always wash your face before applying concealors \n
+                    Use makeup remover to get rid of any darkness around eyes"""),
               )),
           Card(
               color: Colors.green[100],
@@ -63,9 +65,9 @@ class Concelors extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
                 ),
                 subtitle: Text(
-                    'Apply the concealor in the shape of upside down triangle \n'
+                    """Apply the concealor in the shape of upside down triangle \n
                     'Blend the concealer in around the edges, to eliminate an obvious change in tone between your skin and the concealer.\n'
-                    'Avoid using concealer past your smile line, as this will enhance any fine lines you may have'),
+                    'Avoid using concealer past your smile line, as this will enhance any fine lines you may have"""),
               )),
           Card(
               color: Colors.blue[100],

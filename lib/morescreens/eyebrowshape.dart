@@ -9,14 +9,13 @@ class EyebrowShape extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           ListTile(
-            title:  
-              Padding(
-                padding: EdgeInsets.only(top: 10.0),
-             child:Text(
-              '1st Step, Wash face regularly',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            title: Padding(
+              padding: EdgeInsets.only(top: 10.0),
+              child: Text(
+                '1st Step, Wash face regularly',
+                style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              ),
             ),
-             ),
             subtitle: Padding(
               padding: EdgeInsets.only(top: 10.0),
               child: Image.asset('assets/washface.jpg'),
