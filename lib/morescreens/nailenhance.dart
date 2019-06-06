@@ -13,11 +13,11 @@ class NailEnhance extends StatelessWidget {
       body: SingleChildScrollView(
         padding: EdgeInsets.all(30.0),
         child: Column(children: [
-          Text("""A nail enhancement is any material that can add length
-              or strength to the natural nail. There are several options
-              for nail enhancements, but for our purposes, There are four
-              categories. Liquid and Powder, Hard and Soft Gels, Fiberglass
-              /Resin Wraps, and Dip Systems"""),
+          Text('A nail enhancement is any material that can add length'
+              'or strength to the natural nail. There are several options'
+              'for nail enhancements, but for our purposes, There are four'
+              'categories. Liquid and Powder, Hard and Soft Gels, Fiberglass'
+              '/Resin Wraps, and Dip Systems'),
           SizedBox(
             height: 10.0,
           ),
