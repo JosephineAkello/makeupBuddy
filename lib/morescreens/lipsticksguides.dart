@@ -39,9 +39,11 @@ class LipsticksGuides extends StatelessWidget {
             ),
             Card(
               color: Colors.white70,
-              child: Text(
-                  'The first step is to brush your lips with a soft, damp toothbrush then apply lip balm on both the bottom and upper lip.'
-                  'You may apply a lip primer after to make the color stay on longer and to prevent it from bleeding.'),
+              child: Text('The first step is to brush your lips with a soft,'
+                  'damp toothbrush then apply lip balm on both the'
+                  'bottom and upper lip.'
+                  'You may apply a lip primer after to make the color'
+                  'stay on longer and to prevent it from bleeding.'),
             ),
             Text(
               'Step 2: Apply a Base',
@@ -53,9 +55,13 @@ class LipsticksGuides extends StatelessWidget {
             ),
             Card(
               color: Colors.white70,
-              child: Text(
-                  'If you are worried about any kind of discoloration or an uneven liptone, it’s crucial for your lipstick to have a base to hang onto. '
-                  'This is to make sure your lipstick does not sink into your lips. Choose a concealer shade that matches your lip color and dab a little on with a flat brush or a small fluffy brush'),
+              child: Text('If you are worried about any kind of discoloration'
+                  'or an uneven liptone, it’s crucial for your lipstick'
+                  'to have a base to hang onto. '
+                  'This is to make sure your lipstick does not sink into'
+                  'your lips. Choose a concealer shade that matches your'
+                  'lip color and dab a little on with a flat brush or a'
+                  'small fluffy brush'),
             ),
             Text(
               'Step 3: Use a lip liner',
@@ -67,9 +73,11 @@ class LipsticksGuides extends StatelessWidget {
             ),
             Card(
               color: Colors.white70,
-              child: Text(
-                  'Use a lip liner to define your natural lip line and to prevent your lipstick from getting messy, this helps to reshape and perfect the contours of the lips.'
-                  'This way you will achieve a more defined, precise and polished look yourlipstick to have a base to hang onto. '),
+              child: Text('Use a lip liner to define your natural lip line and '
+                  'to prevent your lipstick from getting messy, this helps'
+                  'to reshape and perfect the contours of the lips.'
+                  'This way you will achieve a more defined, precise and'
+                  'polished look yourlipstick to have a base to hang onto. '),
             ),
             Text(
               'Step 4: Apply the lipstick',
@@ -82,10 +90,14 @@ class LipsticksGuides extends StatelessWidget {
             Card(
               color: Colors.white70,
               child: Text(
-                  'Select your prefered lipsticks color take some product onto a lip brush and apply it evenly all over your lips.'
-                  'Don’t miss out the inner corners. Ensure you apply it within the corners of your lined lips. Go coat by coat and '
-                  'intensify the color as you please. Usually, one good coat of a quality lipstick will suffice.'
-                  'This way you will achieve a more defined, precise and polished look yourlipstick to have a base to hang onto. '),
+                  'Select your prefered lipsticks color take some product onto'
+                  'a lip brush and apply it evenly all over your lips.'
+                  'Don’t miss out the inner corners. Ensure you apply it within'
+                  'the corners of your lined lips. Go coat by coat and '
+                  'intensify the color as you please. Usually, one good '
+                  'coat of a quality lipstick will suffice.'
+                  'This way you will achieve a more defined, precise and'
+                  'polished look yourlipstick to have a base to hang onto. '),
             ),
             Text(
               'Step 5: Add definition',
@@ -97,10 +109,14 @@ class LipsticksGuides extends StatelessWidget {
             ),
             Card(
               color: Colors.white70,
-              child: Text(
-                  'After covering up the above steps you may use a small concealer blush and work on your edges to correct'
-                  'the shape of your lips. This is optional but if you want to give your lips that pouty look,'
-                  'you can add a subtle hint of lip gloss.d lipsticks color take some product onto a lip brush and apply it evenly all over your lips.'),
+              child:
+                  Text('After covering up the above steps you may use a small'
+                      'concealer blush and work on your edges to correct'
+                      'the shape of your lips. This is optional but if you want'
+                      'to give your lips that pouty look,'
+                      'you can add a subtle hint of lip gloss.d lipsticks color'
+                      'take some product onto a lip brush and apply it evenly'
+                      'all over your lips.'),
             ),
           ],
         ),

@@ -9,14 +9,13 @@ class EyebrowShape extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           ListTile(
-            title:  
-              Padding(
-                padding: EdgeInsets.only(top: 10.0),
-             child:Text(
-              '1st Step, Wash face regularly',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            title: Padding(
+              padding: EdgeInsets.only(top: 10.0),
+              child: Text(
+                '1st Step, Wash face regularly',
+                style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              ),
             ),
-             ),
             subtitle: Padding(
               padding: EdgeInsets.only(top: 10.0),
               child: Image.asset('assets/washface.jpg'),
@@ -51,7 +50,8 @@ class EyebrowShape extends StatelessWidget {
                 height: 10.0,
               ),
               Text(
-                  'Here is a list of what you should consider before shaping your eyebrows tp suit your taste:'),
+                  'Here is a list of what you should consider before'
+                   'shaping your eyebrows tp suit your taste:'),
               Text('Oval    : soft angled eyebrowshape\n'),
               Text('Long    : Flat angled eyebrowshape\n'),
               Text('Square  : Curved angled eyebrowshape\n'),
@@ -81,7 +81,9 @@ class EyebrowShape extends StatelessWidget {
                   height: 10.0,
                 ),
                 Text(
-                    'Using an  eyepencil, draw the bottom part of your brows, then draw the top of your eyebrows to suit your desired shape')
+                    'Using an  eyepencil, draw the bottom part of your brows,'
+                    'then draw the top of your eyebrows to suit your'
+                    'desired shape')
               ],
             ),
           ),
@@ -100,7 +102,8 @@ class EyebrowShape extends StatelessWidget {
                     height: 10.0,
                   ),
                   Text(
-                      'Fill in the outlined brow with eyepencil using your desired color'),
+                      'Fill in the outlined brow with eyepencil'
+                       'using your desired color'),
                 ],
               )),
           ListTile(
@@ -118,7 +121,8 @@ class EyebrowShape extends StatelessWidget {
                   height: 10.0,
                 ),
                 Text(
-                    'The above shows the final look on the steps it takes to reach the desired shape')
+                    'The above shows the final look on the steps'
+                     'it takes to reach the desired shape')
               ],
             ),
           ),
@@ -137,7 +141,9 @@ class EyebrowShape extends StatelessWidget {
                     height: 10.0,
                   ),
                   Text(
-                      'Maintain plucking your eyebrows regularly to achieve a less bushy eyebrows with your desired shape, do not overpluck'),
+                      'Maintain plucking your eyebrows regularly to'
+                       'achieve a less bushy eyebrows with your desired'
+                        'shape, do not overpluck'),
                   SizedBox(
                     height: 10.0,
                   ),

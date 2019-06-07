@@ -12,9 +12,8 @@ class Mascara extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.only(bottom: 20.0, left: 20.0, right: 20.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
+        child:
+            Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           Image.asset('assets/mascara.jpg'),
           SizedBox(
             height: 10.0,
@@ -46,7 +45,7 @@ class Mascara extends StatelessWidget {
             height: 50.0,
           ),
           RaisedButton(
-             padding: EdgeInsets.all(30.0),
+            padding: EdgeInsets.all(30.0),
             color: Colors.pink,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),
@@ -65,7 +64,7 @@ class Mascara extends StatelessWidget {
             height: 50.0,
           ),
           RaisedButton(
-             padding: EdgeInsets.all(30.0),
+            padding: EdgeInsets.all(30.0),
             color: Colors.pink,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0)),

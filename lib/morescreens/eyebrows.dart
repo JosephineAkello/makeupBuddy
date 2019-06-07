@@ -25,17 +25,14 @@ class Eyebrows extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.only(top: 10.0),
                     ),
-                    Text(
-                        'Make sure your eyebrows shape matches your face'
-                         'shape'),
+                    Text('Make sure your eyebrows shape matches your face'
+                        'shape'),
                     Image.asset('assets/faceshapes.jpg'),
                     Text(
                       'Thick eyebrows',
                     ),
-                    Text(
-                        'If you have thick brows, you can cut/ shape them to'
-                         'match your taste, tidy up extra strands'),
-                         
+                    Text('If you have thick brows, you can cut/ shape them to'
+                        'match your taste, tidy up extra strands'),
                     Text('Thin eyebrows'),
                     Text('If you have thin brows, carefully groom them and fill'
                         'them to have a perfect look,apply eyebrow gel to lay'
@@ -59,8 +56,13 @@ class Eyebrows extends StatelessWidget {
                   padding: EdgeInsets.only(top: 10.0),
                 ),
                 Image.asset('assets/waxing.jpeg'),
-                Text(
-                    'While waxing,a warm wax is thinly applied with a wooden spatula to the hairs that will be removed, a paper strip is then applied directly over the area with the wax, gentle pressure is applied to ensure the hairs in the wax stick to the paper, the paper is then swiftly pulled away, pulling the hairs out directly from the root. '),
+                Text('While waxing,a warm wax is thinly applied'
+                    'with a wooden spatula to the hairs that will be'
+                    'removed, a paper strip is then applied directly'
+                    'over the area with the wax, gentle pressure is applied '
+                    'to ensure the hairs in the wax stick to the paper, the'
+                    'paper is then swiftly pulled away, pulling the hairs '
+                    'out directly from the root. '),
                 RaisedButton(
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.0)),
@@ -99,8 +101,8 @@ class Eyebrows extends StatelessWidget {
                       padding: EdgeInsets.only(top: 10.0),
                     ),
                     Image.asset('assets/shapingkit.jpg'),
-                    Text(
-                        'Check these amazing eyebrow shaping kits, some of them are stensils and brow Zings'),
+                    Text('Check these amazing eyebrow shaping kits, some'
+                        'of them are stensils and brow Zings'),
                   ],
                 ),
               )),
