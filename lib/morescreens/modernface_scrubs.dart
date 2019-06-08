@@ -50,7 +50,7 @@ class ModernScrubs extends StatelessWidget {
                             fontSize: 15.0, fontWeight: FontWeight.bold),
                       ),
                       subtitle: Text('The scrub is vegan and free of sulfates,'
-                          'parabens, phthalates, mineral oils, DEA, formaldehyde,'
+                          'parabens, phthalates, mineral oils,DEA,formaldehyde,'
                           'petrolatum, and paraffin. \n'
                           'Can be too rough for some therefore not recommended'
                           'for people with dry skin \n'),
@@ -93,14 +93,14 @@ class ModernScrubs extends StatelessWidget {
                       title: Text(
                         ' St. Ives Fresh Skin Apricot Scrub',
                         style: TextStyle(
-                            fontSize: 15.0, fontWeight: FontWeight.bold),
+                            fontSize: 16.0, fontWeight: FontWeight.bold),
                       ),
                       subtitle: Text(
-                          'This apricot scrub from St. Ives contains apricot'
-                           'extract (obviously) as well as 100% natural '
-                           'exfoliants such as walnut shell powder. \n'
-                           'Works wonders on thick dry skin.'
-                         ),
+                        'This apricot scrub from St. Ives contains apricot'
+                            'extract (obviously) as well as 100% natural '
+                            'exfoliants such as walnut shell powder. \n'
+                            'Works wonders on thick dry skin.',
+                      ),
                     ),
                   ),
                 ],
@@ -118,12 +118,13 @@ class ModernScrubs extends StatelessWidget {
                         style: TextStyle(
                             fontSize: 15.0, fontWeight: FontWeight.bold),
                       ),
-                      subtitle:
-                          Text('Contains glycolic, lactic, and salicylic'
-                          'acids which help exfoliate the surface of your'
-                           'skin while also helping reduce wrinkles,'
+                      subtitle: Text(
+                        'Contains glycolic, lactic, and salicylic'
+                            'acids which help exfoliate the surface of your'
+                            'skin while also helping reduce wrinkles,'
                             'and clarify pores. \n'
-                            'Works great on oily skin' ),
+                            'Works great on oily skin',
+                      ),
                     ),
                   ),
                 ],
@@ -141,13 +142,13 @@ class ModernScrubs extends StatelessWidget {
                         style: TextStyle(
                             fontSize: 15.0, fontWeight: FontWeight.bold),
                       ),
-                      subtitle:
-                          Text('It is gentle enough that it can be used by all'
-                           'skin types and designed to be used to clean your'
-                           'face daily. This facial scrub is sulfate-free'
+                      subtitle: Text(
+                        'It is gentle enough that it can be used by all'
+                            'skin types and designed to be used to clean your'
+                            'face daily. This facial scrub is sulfate-free'
                             'and rich in antioxidants. \n'
-                            'Works great on acne prone skin '
-                             ),
+                            'Works great on acne prone skin ',
+                      ),
                     ),
                   ),
                 ],
@@ -166,18 +167,16 @@ class ModernScrubs extends StatelessWidget {
                             fontSize: 15.0, fontWeight: FontWeight.bold),
                       ),
                       subtitle: Text('This facial scrub features aluminum oxide'
-                       'crystals that will exfoliate your skin, lactic acid'
-                        'that also exfoliates your skin and softens it, and'
-                        'a botanical blend that contains chamomile, jojoba,'
-                        'and aloe vera to soothe our skin after that slightly'
-                         'abrasive treatment and keep it moisturized.'
-                          ),
+                          'crystals that will exfoliate your skin, lactic acid'
+                          'that also exfoliates your skin and softens it, and'
+                          'a botanical blend that contains chamomile, jojoba,'
+                          'and aloe vera to soothe our skin after that slightly'
+                          'abrasive treatment and keep it moisturized.'),
                     ),
                   ),
                 ],
               ),
             ),
-            
             Card(
               child: Column(
                 children: [
@@ -192,11 +191,10 @@ class ModernScrubs extends StatelessWidget {
                       ),
                       subtitle:
                           Text('The pumice inside the product polishes your'
-                          'skin,getting rid of dead skin cells without'
-                           'causing micro-wounds on your skin. \n'
-                           'More sensitive skins may find that'
-                            'it’s better as a cleanser.'
-                             ),
+                              'skin,getting rid of dead skin cells without'
+                              'causing micro-wounds on your skin. \n'
+                              'More sensitive skins may find that'
+                              'it’s better as a cleanser.'),
                     ),
                   )
                 ],
@@ -217,10 +215,9 @@ class ModernScrubs extends StatelessWidget {
                       subtitle: Text(
                           'For day-to-day exfoliation, the scrub delivers.'
                           'It contains Pro-Vitamin B5 and Vitamin E which are'
-                           'both great for the skin-rejuvenating it and keeping'
-                           'it smooth and soft.The rice granules are present to'
-                           'provide gentle exfoliation.'
-                        ),
+                          'both great for the skin-rejuvenating it and keeping'
+                          'it smooth and soft.The rice granules are present to'
+                          'provide gentle exfoliation.'),
                     ),
                   ),
                 ],
@@ -239,11 +236,10 @@ class ModernScrubs extends StatelessWidget {
                             fontSize: 15.0, fontWeight: FontWeight.bold),
                       ),
                       subtitle: Text(
-                           'It features salicylic acid for fighting acne,'
-                           'glycerin for moisturizing your skin, sodium'
-                           'cocoyl isethionate to clean it, and blue spherical'
-                            'beads that gently exfoliate your skin.'
-                        ),
+                          'It features salicylic acid for fighting acne,'
+                          'glycerin for moisturizing your skin, sodium'
+                          'cocoyl isethionate to clean it, and blue spherical'
+                          'beads that gently exfoliate your skin.'),
                     ),
                   ),
                 ],
