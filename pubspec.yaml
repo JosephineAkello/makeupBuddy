@@ -158,6 +158,17 @@ flutter:
      - assets/nailfilebuffer.jpg
      - assets/nailtoolkit.jpg
      - assets/artificialnails.jpg
+     - assets/facescrubs.jpg
+     - assets/acurescrub.jpg
+     - assets/ivescrub.jpeg
+     - assets/microfiliantscrub.jpg
+     - assets/apricotscrub.jpg
+     - assets/muradscrub.jpg
+     - assets/microdeliveryscrub.jpg
+     - assets/branditscrub.jpeg
+     - assets/clayscrub.jpg
+     - assets/smoothscrub.jpg
+     - assets/biorescrub.jpeg
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 

@@ -5,6 +5,7 @@ import 'morescreens/acneproducts.dart';
 import 'morescreens/lipsticks.dart';
 import 'morescreens/mascara.dart';
 import 'morescreens/nails.dart';
+import 'morescreens/face_scrub.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
@@ -94,7 +95,10 @@ class HomeScreen extends StatelessWidget {
                 Icons.mood,
                 color: Colors.purpleAccent,
               ),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => FaceScrub()));
+              },
 
             ),
             ListTile(
