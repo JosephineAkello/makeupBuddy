@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'tradface_scrubs.dart';
+import 'modernface_scrubs.dart';
 
 class FaceScrub extends StatelessWidget {
   Widget build(context) {
@@ -149,7 +150,7 @@ class FaceScrub extends StatelessWidget {
                   color: Colors.pink,
                   onPressed: () {
                      Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => FaceScrub()));
+                    MaterialPageRoute(builder: (context) => ModernScrubs()));
                   },
                   child: Text(
                     'Off the shelf Face Scrubs',
