@@ -7,8 +7,8 @@ class MakeupDonts extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.purple,
         onPressed: () {
-          Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MakeupDos()));
+          Navigator.push(
+              context, MaterialPageRoute(builder: (context) => MakeupDos()));
         },
         child: Icon(
           Icons.branding_watermark,
@@ -29,8 +29,6 @@ class MakeupDonts extends StatelessWidget {
               'assets/makeupset.jpg',
               fit: BoxFit.cover,
             ),
-            
-            
           ),
         ),
         SliverFillRemaining(
