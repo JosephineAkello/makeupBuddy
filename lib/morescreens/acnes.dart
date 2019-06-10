@@ -19,7 +19,6 @@ class Acnes extends StatelessWidget {
               'No single person is ever happy about having acnes on their faces'
                   'especially women,below are guides on how to deal with acnes'
                   'when you encounter them',
-              style: TextStyle(),
             ),
             SizedBox(
               height: 10.0,
@@ -32,8 +31,9 @@ class Acnes extends StatelessWidget {
               height: 10.0,
             ),
             Text(
-              """Acne is a chronic inflammatory skin condition that causes spots and 
-                pimples especially on the face,shoulders,back,neck,chest and upper arms""",
+              'Acne is a chronic inflammatory skin condition that causes'
+                  'spots and pimples especially on the face,shoulders,'
+                  'back,neck,chest and upper arms',
               style: TextStyle(),
             ),
             SizedBox(
@@ -105,8 +105,9 @@ class Acnes extends StatelessWidget {
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
             Text(
-                """Whether one has acnes or not, its important to wash the face twice
-                 daily to remove impurities, dead skin and extra oil from skin surface """),
+                'Whether one has acnes or not, its important'
+                'to wash the face twice daily to remove impurities,'
+                  'dead skin and extra oil from skin surface.'),
             SizedBox(
               height: 10.0,
             ),
@@ -116,10 +117,12 @@ class Acnes extends StatelessWidget {
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
             Text(
-                """Many acne products contain ingredients that dry the skin, so always use
-                a moisturizer that minimizes dryness and skin peeling. Those labeled 'Noncomedogenic' 
-               to mean should not cause acne is advisable. There are moisturizers made for
-              oily, dry, or combination skin."""),
+                'Many acne products contain ingredients that dry'
+                'the skin, so always use  a moisturizer that'
+                'minimizes dryness and skin peeling. Those '
+                'labeled Noncomedogenic to mean should not cause' 
+                'acne is advisable. There are moisturizers made for'
+              'oily, dry, or combination skin.'),
             SizedBox(
               height: 10.0,
             ),
@@ -128,10 +131,10 @@ class Acnes extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
-            Text(
-                """If you apply makeup, always wash your face at the end of the day. 
-                Avoid applying foundation and blush during breakout session. If possible use
-                 oil-free cosmetics products"""),
+            Text('If you apply makeup, always wash your face at'
+                'the end of the day Avoid applying foundation.'
+                'and blush during breakout session. If possible use'
+                'oil-free cosmetics products'),
             SizedBox(
               height: 10.0,
             ),
@@ -141,11 +144,14 @@ class Acnes extends StatelessWidget {
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
             Text(
-                """Its recommended to buy makeups over the counter to get right instructions
-                on what to use where and when Most of cosmetics products have ingredients such as benzoyl peroxide,
-                salicylic acid, glycolic acid, or lactic acid, which curb bacteria and dry your skin. 
-                They may cause drying or peeling so start with a small amount at first.If you have a
-                 sensitive skin, use the products cautiously"""),
+                'Its recommended to buy makeups over the counter to'
+                 'get right instructions on what to use where '
+               'and when Most of cosmetics products have ingredients'
+                'such as benzoyl peroxide salicylic acid, glycolic acid,'
+                'or lactic acid, which curb bacteria and dry your skin.' 
+                'They may cause drying or peeling so start with a small'
+                 'amount at first.If you have a sensitive skin,'
+                 'use the products cautiously'),
             SizedBox(
               height: 10.0,
             ),
@@ -154,10 +160,10 @@ class Acnes extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
             ),
-            Text(
-                """The hair pomades and fragrances can accelerate acnes when they get in 
-                contact with the face. During breakout, while at home always pull your
-                 hair away from your face"""),
+            Text('The hair pomades and fragrances can accelerate'
+                'acnes when they get in contact with the face.'
+                'During breakout, while at home always pull your'
+                'hair away from your face.'),
             SizedBox(
               height: 10.0,
             ),
