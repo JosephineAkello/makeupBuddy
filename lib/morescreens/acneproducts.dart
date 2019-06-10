@@ -9,6 +9,7 @@ class AcneProducts extends StatelessWidget {
         backgroundColor: Colors.lightBlue[100],
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.purple,
         child: Icon(Icons.blur_circular),
         onPressed: () {
           Navigator.push(
