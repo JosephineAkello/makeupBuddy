@@ -6,6 +6,7 @@ import 'morescreens/lipsticks.dart';
 import 'morescreens/mascara.dart';
 import 'morescreens/nails.dart';
 import 'morescreens/face_scrub.dart';
+import 'morescreens/makeupdonts.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
@@ -129,7 +130,10 @@ class HomeScreen extends StatelessWidget {
                 Icons.library_books,
                 color: Colors.purpleAccent,
               ),
-              onTap: () {},
+              onTap: () {
+                 Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => MakeupDonts()));
+              },
             ),
           ],
         ),
