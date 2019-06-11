@@ -55,6 +55,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Facials()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -66,6 +67,7 @@ class HomeScreen extends StatelessWidget {
              onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Eyebrows()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -77,6 +79,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                  Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Mascara()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -88,6 +91,7 @@ class HomeScreen extends StatelessWidget {
              onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Lipsticks()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -99,6 +103,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => FaceScrub()));
+                    Navigator.pop(context);
               },
 
             ),
@@ -111,6 +116,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                  Navigator.push(context,
                     MaterialPageRoute(builder: (context) => AcneProducts()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -122,6 +128,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Nails()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -133,6 +140,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                  Navigator.push(context,
                     MaterialPageRoute(builder: (context) => MakeupDonts()));
+                    Navigator.pop(context);
               },
             ),
           ],

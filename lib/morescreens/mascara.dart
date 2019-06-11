@@ -33,7 +33,8 @@ class Mascara extends StatelessWidget {
             child: Text(
               'Mascara tools',
               style: TextStyle(
-                fontSize: 20.0,
+                fontSize: 18.0,
+                color: Colors.white
               ),
             ),
             onPressed: () {
@@ -53,6 +54,7 @@ class Mascara extends StatelessWidget {
               'Mascara with natural eyelashes',
               style: TextStyle(
                 fontSize: 18.0,
+                 color: Colors.white
               ),
             ),
             onPressed: () {
@@ -72,6 +74,7 @@ class Mascara extends StatelessWidget {
               'Applying false eyelashes',
               style: TextStyle(
                 fontSize: 18.0,
+                 color: Colors.white
               ),
             ),
             onPressed: () {
