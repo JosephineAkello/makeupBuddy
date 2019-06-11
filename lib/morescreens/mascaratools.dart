@@ -7,6 +7,7 @@ class MascaraTools extends StatelessWidget {
         title: Text('Mascara tools'),
       ),
       body: ListView(
+        padding: EdgeInsets.all(20.0),
         children: <Widget>[
           Text(
             'Types of Mascara tools',
@@ -31,7 +32,7 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           Text('Curling your eyebrows',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
           SizedBox(
             height: 10.0,
           ),

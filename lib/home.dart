@@ -6,6 +6,7 @@ import 'morescreens/lipsticks.dart';
 import 'morescreens/mascara.dart';
 import 'morescreens/nails.dart';
 import 'morescreens/face_scrub.dart';
+import 'morescreens/makeupdonts.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
@@ -54,6 +55,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Facials()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -65,6 +67,7 @@ class HomeScreen extends StatelessWidget {
              onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Eyebrows()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -76,6 +79,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                  Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Mascara()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -87,6 +91,7 @@ class HomeScreen extends StatelessWidget {
              onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Lipsticks()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -98,6 +103,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => FaceScrub()));
+                    Navigator.pop(context);
               },
 
             ),
@@ -110,6 +116,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                  Navigator.push(context,
                     MaterialPageRoute(builder: (context) => AcneProducts()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -121,6 +128,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Nails()));
+                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -129,7 +137,11 @@ class HomeScreen extends StatelessWidget {
                 Icons.library_books,
                 color: Colors.purpleAccent,
               ),
-              onTap: () {},
+              onTap: () {
+                 Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => MakeupDonts()));
+                    Navigator.pop(context);
+              },
             ),
           ],
         ),
