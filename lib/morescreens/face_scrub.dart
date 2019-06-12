@@ -17,48 +17,79 @@ class FaceScrub extends StatelessWidget {
             SizedBox(
               height: 10.0,
             ),
-            Text('If you really want glowing and radiant skin, you '
+            Text(
+                'If you really want glowing and radiant skin, you '
                 'better stop skipping that most important step – exfoliation.'
                 'By exfoliating, you’re getting rid of that layer of dead'
                 'cells along with any dirt and makeup that might still be'
                 'there to reveal the new layer, leaving your skin looking'
                 'rejuvenated. You also get the added benefit of getting an'
-                'even skin tone. After exfoliating, any moisturizers,cleansers,'
+                'even skin tone.After exfoliating,any moisturizers,cleansers,'
                 'and skin care products you use will be able to penetrate'
-                'your skin better.'),
+                'your skin better.',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18.0,
+                )),
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             Text(
               'Various Skin Types',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 25.0,
+                  fontFamily: 'Raleway',
+                  fontWeight: FontWeight.bold),
             ),
             SizedBox(
-              height: 10.0,
+              height: 8.0,
             ),
-            Text('Before deciding on your favorite face scrub, it is'
+            Text(
+                'Before deciding on your favorite face scrub, it is'
                 'important to always consider your skin type to avoid various'
-                'complications that may arise.Consider:'),
+                'complications that may arise.Consider:',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18.0,
+                )),
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             Text(
               'Normal skin',
-              style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 25.0,
+                  fontFamily: 'Raleway',
+                  fontWeight: FontWeight.bold),
             ),
-            Text('Those with normal skin types dont really have much'
+            SizedBox(
+              height: 8.0,
+            ),
+            Text(
+                'Those with normal skin types dont really have much'
                 'struggle when selecting a favorable face scrub they can'
                 'experiment since their skin is fuss-free. Just make sure'
                 'to check the ingredients used so you can be sure nothing'
-                'will trigger any allergies you have (i.e. strawberries).'),
+                'will trigger any allergies you have.',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18.0,
+                )),
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             Text(
               'Sensitive skin',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 25.0,
+                  fontFamily: 'Raleway',
+                  fontWeight: FontWeight.bold),
             ),
-            Text('You’ll need to make sure that you stay away from'
+            SizedBox(
+              height: 8.0,
+            ),
+            Text(
+                'You’ll need to make sure that you stay away from'
                 'scrubs that contain too many or too aggressive exfoliating'
                 'agents. Make sure that you choose a facial scrub that is'
                 'specifically made for your skin type or that contains natural '
@@ -66,77 +97,136 @@ class FaceScrub extends StatelessWidget {
                 'A scrub with oatmeal like St. Ives Nourished & Smooth Face'
                 'Scrub and Mask can work well since able to soothe your skin.'
                 'Just make sure to test it on a small area of your body before'
-                'going all in to see how your skin would react.'),
+                'going all in to see how your skin would react.',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18.0,
+                )),
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             Text(
               'Oily skin',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 25.0,
+                  fontFamily: 'Raleway',
+                  fontWeight: FontWeight.bold),
             ),
-            Text('A scrub is a good way to take away any impurities on oily'
+            SizedBox(
+              height: 8.0,
+            ),
+            Text(
+                'A scrub is a good way to take away any impurities on oily'
                 'skin but you need to remember not to over-exfoliate. Doing so'
                 'could dry your skin which would lead it to producing more oil.'
                 'For your type of skin, ensure that your scrub'
                 'cleanses your skin but doesn’t overdry it. One ingredient you '
                 'should look for is salicylic acid (like what is used in Murad'
                 'AHA/BHA Exfoliating Cleanser) which helps regulate your skin’s'
-                'production of oil and clean clogged pores.'),
+                'production of oil and clean clogged pores.',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18.0,
+                )),
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             Text(
               'Combination Skin',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 25.0,
+                  fontFamily: 'Raleway',
+                  fontWeight: FontWeight.bold),
             ),
-            Text('Unlike other skin types, this one’s a bit more complicated'
+            SizedBox(
+              height: 8.0,
+            ),
+            Text(
+                'Unlike other skin types, this one’s a bit more complicated'
                 'since different areas of your face have differing needs. This'
                 'means that you’ll need a product that can treat both oily and'
                 'dry areas of your face. Fruit enzymes are great for this skin'
                 'type because it won’t dry your cheeks after exfoliation but it'
-                'also helps reduce clogged pores.'),
+                'also helps reduce clogged pores.',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18.0,
+                )),
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             Text(
               'Dry skin',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 25.0,
+                  fontFamily: 'Raleway',
+                  fontWeight: FontWeight.bold),
             ),
-            Text('For this skintype ,it’srecommended that your scrub should'
+            SizedBox(
+              height: 8.0,
+            ),
+            Text(
+                'For this skintype,it’srecommended that your scrub should'
                 'be creamier containing moisturizing agents to ensure your'
                 'skin doesn’t dry out after use. Dr. Brandt Microdermabrasion'
                 'Skin Exfoliant may be favorable since it contains jojoba oils'
-                ' which are great at soothing and moisturizing skin.'),
+                ' which are great at soothing and moisturizing skin.',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18.0,
+                )),
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             Text(
               'Preference',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 25.0,
+                  fontFamily: 'Raleway',
+                  fontWeight: FontWeight.bold),
             ),
-            Text('Some people like it rough and there’s nothing wrong with'
+            SizedBox(
+              height: 8.0,
+            ),
+            Text(
+                'Some people like it rough and there’s nothing wrong with'
                 'that. To each his/her own and all that jazz, right? If you’re'
                 'part of that group, then you may want to use St. Ives Fresh'
                 'Skin Apricot Scrub or something similar because it has a lot'
                 'of grittiness. If you wish for a gentle touch, then you can'
                 'choose a mild facial scrub with a minimal amount of granules'
                 'or one that makes use of chemical exfoliating agents such as'
-                'the Murad AHA/BHA Exfoliating Cleanser.'),
+                'the Murad AHA/BHA Exfoliating Cleanser.',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18.0,
+                )),
             SizedBox(
-              height: 10.0,
+              height: 20.0,
             ),
             Text(
               'When to use Face Scrub?',
-              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 25.0,
+                  fontFamily: 'Raleway',
+                  fontWeight: FontWeight.bold),
             ),
-            Text('Some facial scrubs are designed for everyday'
+            SizedBox(
+              height: 8.0,
+            ),
+            Text(
+                'Some facial scrubs are designed for everyday'
                 'exfoliation such as Dermalogica Daily Microfoliant and'
                 'Philosophy The Microdelivery Daily Exfoliating Wash.'
                 'These are gentle enough to slough away dead skin and dirt'
                 'without irritating your skin.Others, however, are only good'
                 'for you if you use once to twice a week such as the Acure'
                 ' Brilliantly Brightening Facial Scrub and the St. Ives '
-                'Fresh Skin Apricot Scrub.'),
+                'Fresh Skin Apricot Scrub.',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 18.0,
+                )),
             SizedBox(
               height: 10.0,
             ),
@@ -144,32 +234,32 @@ class FaceScrub extends StatelessWidget {
             //   margin: EdgeInsets.all(20.0),
             //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             //   children: <Widget>[
-                RaisedButton(
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.0)),
-                  color: Colors.pink,
-                  onPressed: () {
-                     Navigator.push(context,
+            RaisedButton(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0)),
+              color: Colors.pink,
+              onPressed: () {
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => ModernScrubs()));
-                  },
-                  child: Text(
-                    'Off the shelf Face Scrubs',
-                    style: TextStyle(fontSize: 20.0, color: Colors.white),
-                  ),
-                ),
-                RaisedButton(
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.0)),
-                  color: Colors.pink,
-                  onPressed: () {
-                     Navigator.push(context,
+              },
+              child: Text(
+                'Off the shelf Face Scrubs',
+                style: TextStyle(fontSize: 20.0, color: Colors.white),
+              ),
+            ),
+            RaisedButton(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0)),
+              color: Colors.pink,
+              onPressed: () {
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => TradScrub()));
-                  },
-                  child: Text(
-                    'Homemade Face Scrubs',
-                    style: TextStyle(fontSize: 20.0, color: Colors.white),
-                  ),
-                )
+              },
+              child: Text(
+                'Homemade Face Scrubs',
+                style: TextStyle(fontSize: 20.0, color: Colors.white),
+              ),
+            )
             //   ],
             // ),
           ],
