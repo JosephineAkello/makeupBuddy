@@ -20,7 +20,10 @@ class Mascara extends StatelessWidget {
           ),
           Text(
             'Mascara  Essentials',
-            style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            style: TextStyle(
+                fontSize: 25.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
           ),
           SizedBox(
             height: 20.0,
