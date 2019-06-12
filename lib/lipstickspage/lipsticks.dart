@@ -5,8 +5,11 @@ class Lipsticks extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Lipsticks',style: TextStyle(color: Colors.white),),
-          backgroundColor: Colors.pink, 
+          title: Text(
+            'Lipsticks',
+            style: TextStyle(color: Colors.white),
+          ),
+          backgroundColor: Colors.pink,
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.navigate_next),
@@ -59,8 +62,13 @@ class Lipsticks extends StatelessWidget {
                     fontWeight: FontWeight.bold),
               ),
               Image.asset('assets/rosepink.jpg'),
-              Text(' This shade of lipstick looks good on'
-                  'anyone with any skin tone'),
+              Text(
+                ' This shade of lipstick looks good on'
+                    'anyone with any skin tone',
+                style: TextStyle(
+                  fontSize: 18.0,
+                ),
+              ),
             ]),
           ),
           Card(
@@ -76,28 +84,37 @@ class Lipsticks extends StatelessWidget {
                 Image.asset('assets/copperbrown.jpg'),
                 Container(
                   color: Colors.white12,
-                  child: Text('Any skin tone can apply this but it'
-                      'looks appealing on dark women.'),
+                  child: Text(
+                    'Any skin tone can apply this but it'
+                        'looks appealing on dark women.',
+                    style: TextStyle(
+                      fontSize: 18.0,
+                    ),
+                  ),
                 ),
               ],
             ),
           ),
-         
           Card(
             child: Column(
               children: [
-                 Text(
-            'Taupe lipsticks',
-            style: TextStyle(
-                fontSize: 20.0,
-                fontFamily: 'Raleway',
-                fontWeight: FontWeight.bold),
-          ),
+                Text(
+                  'Taupe lipsticks',
+                  style: TextStyle(
+                      fontSize: 20.0,
+                      fontFamily: 'Raleway',
+                      fontWeight: FontWeight.bold),
+                ),
                 Image.asset('assets/taupelipsticks.jpg'),
                 Container(
                   color: Colors.white12,
-                  child: Text('Those with lightly deeper complexion can apply'
-                      'this, looks good on them'),
+                  child: Text(
+                    'Those with lightly deeper complexion can apply'
+                        'this, looks good on them',
+                    style: TextStyle(
+                      fontSize: 18.0,
+                    ),
+                  ),
                 ),
               ],
             ),
@@ -115,9 +132,13 @@ class Lipsticks extends StatelessWidget {
                 Image.asset('assets/fuschialipsticks.jpg'),
                 Container(
                   color: Colors.white,
-                  child:
-                      Text('This shade is all inclusive, however those worried'
-                          'about pink lips can use this shade'),
+                  child: Text(
+                    'This shade is all inclusive, however those worried'
+                        'about pink lips can use this shade',
+                    style: TextStyle(
+                      fontSize: 18.0,
+                    ),
+                  ),
                 ),
               ],
             ),

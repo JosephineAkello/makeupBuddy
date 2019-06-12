@@ -57,7 +57,7 @@ class NailTools extends StatelessWidget {
                 title: Image.asset('assets/nailgel.jpg'),
                 subtitle: Text(
                   'Nail gel polish',
-                  style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -66,7 +66,7 @@ class NailTools extends StatelessWidget {
                 title: Image.asset('assets/nailscrub.jpg'),
                 subtitle: Text('Nail Scrub',
                     style:
-                        TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold)),
+                        TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
               ),
             ),
             Card(
@@ -74,7 +74,7 @@ class NailTools extends StatelessWidget {
                 title: Image.asset('assets/nailstonescrub.jpg'),
                 subtitle: Text('Nail stone scrub',
                     style:
-                        TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold)),
+                        TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
               ),
             ),
             Card(
@@ -82,7 +82,7 @@ class NailTools extends StatelessWidget {
                 title: Image.asset('assets/nailart.jpg'),
                 subtitle: Text('Nails Art',
                     style:
-                        TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold)),
+                        TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
               ),
             ),
             Card(
@@ -90,7 +90,7 @@ class NailTools extends StatelessWidget {
                 title: Image.asset('assets/nailfile.jpg'),
                 subtitle: Text('Nail File',
                     style:
-                        TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold)),
+                        TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
               ),
             ),
             Card(
@@ -98,7 +98,7 @@ class NailTools extends StatelessWidget {
                 title: Image.asset('assets/nailtools.jpg'),
                 subtitle: Text('Sample tools',
                     style:
-                        TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold)),
+                        TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
               ),
             ),
             Card(
@@ -106,7 +106,7 @@ class NailTools extends StatelessWidget {
                 title: Image.asset('assets/toolss.jpg'),
                 subtitle: Text('Tools',
                     style:
-                        TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold)),
+                        TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
               ),
             ),
             Card(
@@ -114,7 +114,7 @@ class NailTools extends StatelessWidget {
                 title: Image.asset('assets/nailfilebuffer.jpg'),
                 subtitle: Text('Nail buffer',
                     style:
-                        TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold)),
+                        TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
               ),
             ),
           ]),

@@ -25,6 +25,7 @@ class NailsCouture extends StatelessWidget {
                 'Applying Nail gel',
                 style: TextStyle(
                   fontSize: 20.0,
+                  color: Colors.white
                 ),
               ),
               onPressed: () {
@@ -44,6 +45,7 @@ class NailsCouture extends StatelessWidget {
                 'Manicure',
                 style: TextStyle(
                   fontSize: 18.0,
+                   color: Colors.white,
                 ),
               ),
               onPressed: () {
@@ -63,6 +65,7 @@ class NailsCouture extends StatelessWidget {
                 'Pedicure',
                 style: TextStyle(
                   fontSize: 18.0,
+                   color: Colors.white
                 ),
               ),
               onPressed: () {
@@ -82,6 +85,7 @@ class NailsCouture extends StatelessWidget {
                 'Nail Enhancement',
                 style: TextStyle(
                   fontSize: 18.0,
+                   color: Colors.white
                 ),
               ),
               onPressed: () {
