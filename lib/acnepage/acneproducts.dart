@@ -6,7 +6,7 @@ class AcneProducts extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Acne skincare products'),
-        backgroundColor: Colors.lightBlue[100],
+        backgroundColor: Colors.pink,
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.purple,

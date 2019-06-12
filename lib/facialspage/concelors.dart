@@ -5,8 +5,11 @@ class Concelors extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('How to do Concealors the right way'),
-        backgroundColor: Colors.lightBlue[100],
+        title: Text(
+          'How to do Concealors the right way',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.pink,
       ),
       body: ListView(
         children: <Widget>[

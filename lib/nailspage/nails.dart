@@ -6,7 +6,7 @@ class Nails extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text('Nail polish Shades'),
-          backgroundColor: Colors.lightBlue[100],
+          backgroundColor: Colors.pink, 
         ),
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.purple,

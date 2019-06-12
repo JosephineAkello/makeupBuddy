@@ -4,7 +4,10 @@ class Contuors extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Perfecting contouring'),
+          title: Text(
+            'Perfecting contouring',
+            style: TextStyle(color: Colors.white),
+          ),
         ),
         body: SingleChildScrollView(
             padding: EdgeInsets.only(bottom: 20.0, left: 20.0, right: 20.0),

@@ -4,8 +4,8 @@ class LipsticksGuides extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('How to apply Lipsticks'),
-        backgroundColor: Colors.lightBlue[100],
+        title: Text('How to apply Lipsticks',style: TextStyle(color: Colors.white),),
+        backgroundColor: Colors.pink,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.0),

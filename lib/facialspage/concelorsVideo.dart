@@ -13,8 +13,11 @@ class ConcelorsVideoState extends State<ConcelorsVideo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Watch Concelors Video Tutorials'),
-        backgroundColor: Colors.lightBlue[100],
+        title: Text(
+          'Watch Concelors Video Tutorials',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.pink,
       ),
       body: Center(
         child: YoutubePlayer(

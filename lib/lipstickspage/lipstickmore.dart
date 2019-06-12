@@ -9,8 +9,11 @@ class Morelipsticks extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('More insights on Lipsticks'),
-        backgroundColor: Colors.lightBlue[100],
+        title: Text(
+          'More insights on Lipsticks',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.pink,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(18.0),
@@ -24,7 +27,10 @@ class Morelipsticks extends StatelessWidget {
               color: Colors.pink,
               child: Text(
                 'Guides on how to apply lipsticks',
-                style: TextStyle(color: Colors.white, fontSize: 18.0),
+                style: TextStyle(
+                    fontSize: 25.0,
+                    fontFamily: 'Raleway',
+                    fontWeight: FontWeight.bold),
               ),
               onPressed: () {
                 Navigator.push(context,

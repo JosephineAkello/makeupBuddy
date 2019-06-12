@@ -5,8 +5,8 @@ class Lipsticks extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Lipsticks'),
-          backgroundColor: Colors.lightBlue[100],
+          title: Text('Lipsticks',style: TextStyle(color: Colors.white),),
+          backgroundColor: Colors.pink, 
         ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.navigate_next),
@@ -44,65 +44,70 @@ class Lipsticks extends StatelessWidget {
           ),
           Text(
             'Shades of Lipsticks',
-            style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+            style: TextStyle(
+                fontSize: 25.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
+          ),
+          Card(
+            child: Column(children: [
+              Text(
+                'Rose pink lipsticks',
+                style: TextStyle(
+                    fontSize: 20.0,
+                    fontFamily: 'Raleway',
+                    fontWeight: FontWeight.bold),
+              ),
+              Image.asset('assets/rosepink.jpg'),
+              Text(' This shade of lipstick looks good on'
+                  'anyone with any skin tone'),
+            ]),
           ),
           Card(
             child: Column(
               children: [
-                Image.asset('assets/rosepink.jpg'),
-                Container(
-                  color: Colors.white30,
-                  child: ListTile(
-                    title: Text(
-                      'Rose pink lipsticks',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text(' This shade of lipstick looks good on'
-                        'anyone with any skin tone'),
-                  ),
+                Text(
+                  'Copper brown',
+                  style: TextStyle(
+                      fontSize: 20.0,
+                      fontFamily: 'Raleway',
+                      fontWeight: FontWeight.bold),
                 ),
-              ],
-            ),
-          ),
-          Card(
-            child: Column(
-              children: [
                 Image.asset('assets/copperbrown.jpg'),
                 Container(
                   color: Colors.white12,
-                  child: ListTile(
-                    title: Text(
-                      'Copper brown',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text('Any skin tone can apply this but it'
-                        'looks appealing on dark women.'),
-                  ),
+                  child: Text('Any skin tone can apply this but it'
+                      'looks appealing on dark women.'),
                 ),
               ],
             ),
           ),
+         
           Card(
             child: Column(
               children: [
+                 Text(
+            'Taupe lipsticks',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
+          ),
                 Image.asset('assets/taupelipsticks.jpg'),
                 Container(
                   color: Colors.white12,
-                  child: ListTile(
-                    title: Text(
-                      'Taupe lipsticks',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle:
-                        Text('Those with lightly deeper complexion can apply'
-                            'this, looks good on them'),
-                  ),
+                  child: Text('Those with lightly deeper complexion can apply'
+                      'this, looks good on them'),
                 ),
               ],
             ),
+          ),
+          Text(
+            'Fuschia Lipsticks',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
           ),
           Card(
             child: Column(
@@ -110,153 +115,155 @@ class Lipsticks extends StatelessWidget {
                 Image.asset('assets/fuschialipsticks.jpg'),
                 Container(
                   color: Colors.white,
-                  child: ListTile(
-                    title: Text(
-                      'Fuschia Lipsticks',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text(
-                        'This shade is all inclusive, however those worried'
-                        'about pink lips can use this shade'),
-                  ),
+                  child:
+                      Text('This shade is all inclusive, however those worried'
+                          'about pink lips can use this shade'),
                 ),
               ],
             ),
+          ),
+          Text(
+            'ChocolateBrown lipsticks',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
           ),
           Card(
             child: Column(
               children: [
                 Image.asset('assets/chocolatebrown.png'),
-                Container(
-                  color: Colors.white,
-                  child: ListTile(
-                    title: Text(
-                      'ChocolateBrown lipsticks',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle:
-                        Text('This shade looks natural on dark skinned color,'
-                            'it gives a sophisticated look'),
+                Text(
+                  'This shade looks natural on dark skinned color,'
+                      'it gives a sophisticated look',
+                  style: TextStyle(
+                    fontSize: 18.0,
                   ),
                 ),
               ],
             ),
+          ),
+          Text(
+            'Peach Lipsticks',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
           ),
           Card(
             child: Column(
               children: [
                 Image.asset('assets/peachlipsticks.jpg'),
-                Container(
-                  color: Colors.white,
-                  child: ListTile(
-                    title: Text(
-                      'Peach Lipsticks',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle:
-                        Text('This shade looks awesome on fair skinned people'
-                            'to complement their skin tone'),
+                Text(
+                  'This shade looks awesome on fair skinned people'
+                      'to complement their skin tone',
+                  style: TextStyle(
+                    fontSize: 18.0,
                   ),
                 ),
               ],
             ),
+          ),
+          Text(
+            'Bronze Lipsticks',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
           ),
           Card(
             child: Column(
               children: [
                 Image.asset('assets/bronzelipsticks.jpg'),
-                Container(
-                  color: Colors.white,
-                  child: ListTile(
-                    title: Text(
-                      'Bronze Lipsticks',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text('Looks elegant and its not shouting,'
-                        'any skintone can apply this shade'),
+                Text(
+                  'Looks elegant and its not shouting,'
+                      'any skintone can apply this shade',
+                  style: TextStyle(
+                    fontSize: 18.0,
                   ),
                 ),
               ],
             ),
+          ),
+          Text(
+            'Magenta Lipsticks',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
           ),
           Card(
             child: Column(
               children: [
                 Image.asset('assets/magentalipsticks.jpg'),
-                Container(
-                  color: Colors.white,
-                  child: ListTile(
-                    title: Text(
-                      'Magenta Lipsticks',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text('Looks marvelous in all skin shades,'),
+                Text(
+                  'Looks marvelous in all skin shades,',
+                  style: TextStyle(
+                    fontSize: 18.0,
                   ),
                 ),
               ],
             ),
+          ),
+          Text(
+            'Nude Lipsticks',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
           ),
           Card(
             child: Column(
               children: [
                 Image.asset('assets/nudelipsticks.jpeg'),
-                Container(
-                  color: Colors.white,
-                  child: ListTile(
-                    title: Text(
-                      'Nude Lipsticks',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle:
-                        Text('If you are for simple, formal and soft look,'
-                            'you can go to nude lipsticks shade.'),
+                Text(
+                  'If you are for simple, formal and soft look,'
+                      'you can go to nude lipsticks shade.',
+                  style: TextStyle(
+                    fontSize: 18.0,
                   ),
                 )
               ],
             ),
           ),
+          Text(
+            'Red Lipsticks',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
+          ),
           Card(
             child: Column(
               children: [
                 Image.asset('assets/redlipsticks.jpg'),
-                Container(
-                  color: Colors.white,
-                  child: ListTile(
-                    title: Text(
-                      'Red Lipsticks',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle:
-                        Text('Looks enticingly hot and seductive on dark women.'
-                            'However, those with fair skin can still apply.'),
+                Text(
+                  'Looks enticingly hot and seductive on dark women.'
+                      'However, those with fair skin can still apply.',
+                  style: TextStyle(
+                    fontSize: 18.0,
                   ),
                 ),
               ],
             ),
           ),
+          Text(
+            'Crazy look',
+            style: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'Raleway',
+                fontWeight: FontWeight.bold),
+          ),
           Card(
             child: Column(
               children: [
                 Image.asset('assets/funnylips.jpg'),
-                Container(
-                  color: Colors.white,
-                  child: ListTile(
-                    title: Text(
-                      'Crazy look',
-                      style: TextStyle(
-                          fontSize: 15.0, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text(
-                        'If you want a crazy look, you can apply these sets'
-                        'of shades, to give the creative apperance. This can'
-                        'be relevant during modelling competitions.'),
+                Text(
+                  'If you want a crazy look, you can apply these sets'
+                      'of shades, to give the creative apperance. This can'
+                      'be relevant during modelling competitions.',
+                  style: TextStyle(
+                    fontSize: 18.0,
                   ),
                 ),
               ],

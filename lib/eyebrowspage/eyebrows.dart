@@ -6,8 +6,11 @@ class Eyebrows extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('How to groom and shape Eyebrows'),
-        backgroundColor: Colors.lightBlue[100],
+        title: Text(
+          'How to groom and shape Eyebrows',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.pink,
       ),
       body: ListView(
         children: <Widget>[

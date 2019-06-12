@@ -5,7 +5,7 @@ class NailGel extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('How to Apply Nail Gel'),
-        backgroundColor: Colors.lightBlue[100],
+        backgroundColor: Colors.pink, 
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.0),

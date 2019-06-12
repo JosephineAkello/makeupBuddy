@@ -4,8 +4,11 @@ class Acnes extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dealing with Acnes'),
-        backgroundColor: Colors.lightBlue[100],
+        title: Text(
+          'Dealing with Acnes',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.pink,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.only(bottom: 20.0, left: 20.0, right: 20.0),

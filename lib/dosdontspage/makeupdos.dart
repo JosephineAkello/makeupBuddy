@@ -14,9 +14,9 @@ class MakeupDos extends StatelessWidget {
                 'Makeup Dos',
                 style: TextStyle(color: Colors.white),
               ),
-              background: Image.asset('assets/set.jpg',
-                fit: BoxFit.cover,
-              ),
+              // background: Image.asset('assets/set.jpg',
+              //   fit: BoxFit.cover,
+              // ),
             ),
           ),
           SliverFillRemaining(

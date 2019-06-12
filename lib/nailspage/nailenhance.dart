@@ -8,7 +8,7 @@ class NailEnhance extends StatelessWidget {
           'Nail Enhancement tips',
           style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.lightBlue[100],
+        backgroundColor:Colors.pink, 
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(30.0),

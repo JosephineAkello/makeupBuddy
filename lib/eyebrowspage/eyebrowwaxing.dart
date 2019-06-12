@@ -13,8 +13,11 @@ class EyebrowWaxingState extends State<EyebrowWaxing> {
   Widget build(context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Eyebrow waxing tutorial'),
-        backgroundColor: Colors.lightBlue[100],
+        title: Text(
+          'Eyebrow waxing tutorial',
+          style: TextStyle(color: Colors.white),
+        ),
+        backgroundColor: Colors.pink,
       ),
       body: Center(
         child: YoutubePlayer(

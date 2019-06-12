@@ -9,7 +9,7 @@ class NailsCouture extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Nails Couture'),
-        backgroundColor: Colors.lightBlue[100],
+        backgroundColor: Colors.pink, 
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(30.0),

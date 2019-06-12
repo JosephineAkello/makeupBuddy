@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
-import 'morescreens/facials.dart';
-import 'morescreens/eyebrows.dart';
-import 'morescreens/acneproducts.dart';
-import 'morescreens/lipsticks.dart';
-import 'morescreens/mascara.dart';
-import 'morescreens/nails.dart';
-import 'morescreens/face_scrub.dart';
-import 'morescreens/makeupdonts.dart';
+import 'facialspage/facials.dart';
+import 'eyebrowspage/eyebrows.dart';
+import 'acnepage/acneproducts.dart';
+import 'lipstickspage/lipsticks.dart';
+import 'maskarapage/mascara.dart';
+import 'nailspage/nails.dart';
+import 'scrubspage/face_scrub.dart';
+import 'dosdontspage/makeupdonts.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
     return MaterialApp(
-        theme: ThemeData(primaryColor: Colors.lightBlue[100]),
+        theme: ThemeData(
+            primaryColor: Colors.pink, 
+            fontFamily: 'Roboto'),
         title: 'Makeup budyy',
         debugShowCheckedModeBanner: false,
         home: HomeScreen());
@@ -55,7 +57,6 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Facials()));
-                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -64,10 +65,9 @@ class HomeScreen extends StatelessWidget {
                 Icons.remove_red_eye,
                 color: Colors.purpleAccent,
               ),
-             onTap: () {
+              onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Eyebrows()));
-                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -77,9 +77,8 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.purpleAccent,
               ),
               onTap: () {
-                 Navigator.push(context,
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Mascara()));
-                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -88,10 +87,9 @@ class HomeScreen extends StatelessWidget {
                 Icons.opacity,
                 color: Colors.purpleAccent,
               ),
-             onTap: () {
+              onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => Lipsticks()));
-                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -103,9 +101,7 @@ class HomeScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => FaceScrub()));
-                    Navigator.pop(context);
               },
-
             ),
             ListTile(
               title: Text('Dealing with Acnes'),
@@ -114,9 +110,8 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.purpleAccent,
               ),
               onTap: () {
-                 Navigator.push(context,
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => AcneProducts()));
-                    Navigator.pop(context);
               },
             ),
             ListTile(
@@ -126,9 +121,8 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.purpleAccent,
               ),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Nails()));
-                    Navigator.pop(context);
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Nails()));
               },
             ),
             ListTile(
@@ -138,9 +132,8 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.purpleAccent,
               ),
               onTap: () {
-                 Navigator.push(context,
+                Navigator.push(context,
                     MaterialPageRoute(builder: (context) => MakeupDonts()));
-                    Navigator.pop(context);
               },
             ),
           ],

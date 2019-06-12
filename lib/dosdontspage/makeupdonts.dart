@@ -25,10 +25,10 @@ class MakeupDonts extends StatelessWidget {
               style: TextStyle(color: Colors.white),
             ),
             centerTitle: true,
-            background: Image.asset(
-              'assets/makeupset.jpg',
-              fit: BoxFit.cover,
-            ),
+            // background: Image.asset(
+            //   'assets/makeupset.jpg',
+            //   fit: BoxFit.cover,
+            // ),
           ),
         ),
         SliverFillRemaining(
