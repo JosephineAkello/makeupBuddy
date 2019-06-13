@@ -27,10 +27,7 @@ class Morelipsticks extends StatelessWidget {
               color: Colors.pink,
               child: Text(
                 'Guides on how to apply lipsticks',
-                style: TextStyle(
-                    fontSize: 25.0,
-                    fontFamily: 'Raleway',
-                    fontWeight: FontWeight.bold),
+               style: TextStyle(color: Colors.white, fontSize: 18.0),
               ),
               onPressed: () {
                 Navigator.push(context,

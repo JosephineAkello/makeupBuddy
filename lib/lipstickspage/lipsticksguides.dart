@@ -18,6 +18,7 @@ class LipsticksGuides extends StatelessWidget {
               'What you need',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -41,6 +42,7 @@ class LipsticksGuides extends StatelessWidget {
               'Step 1: Prepare your lips',
              style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -61,6 +63,7 @@ class LipsticksGuides extends StatelessWidget {
               'Step 2: Apply a Base',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -83,6 +86,7 @@ class LipsticksGuides extends StatelessWidget {
               'Step 3: Use a lip liner',
              style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -104,6 +108,7 @@ class LipsticksGuides extends StatelessWidget {
              style: TextStyle(
                   fontSize: 25.0,
                   fontFamily: 'Raleway',
+                  color: Colors.purple,
                   fontWeight: FontWeight.bold),
             ),
             Card(
@@ -127,6 +132,7 @@ class LipsticksGuides extends StatelessWidget {
               style: TextStyle(
                   fontSize: 25.0,
                   fontFamily: 'Raleway',
+                  color: Colors.purple,
                   fontWeight: FontWeight.bold),
             ),
             Card(

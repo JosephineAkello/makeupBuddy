@@ -13,6 +13,7 @@ class MascaraTools extends StatelessWidget {
             'Types of Mascara tools',
             style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -22,6 +23,7 @@ class MascaraTools extends StatelessWidget {
               '1. Eyelash curler',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -29,6 +31,7 @@ class MascaraTools extends StatelessWidget {
           ListTile(
             title: Text('How to use Eye Curler',
                 style: TextStyle(
+                  color: Colors.purple,
                   fontSize: 20.0,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
@@ -48,6 +51,7 @@ class MascaraTools extends StatelessWidget {
           Text('Curling your eyebrows',
              style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -55,9 +59,10 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           ListTile(
-            title: Text('1. Get a high quality eyelash curler',
+            title: Text('Get a high quality eyelash curler',
                 style: TextStyle(
-                  fontSize: 25.0,
+                  fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -78,9 +83,10 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           ListTile(
-            title: Text('2. Hold the eyelash curler up to your eye',
+            title: Text('Hold the eyelash curler up to your eye',
                 style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -100,9 +106,10 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           ListTile(
-            title: Text('3. Open the eyelash clamps.',
+            title: Text('Open the eyelash clamps.',
                 style: TextStyle(
-                  fontSize: 25.0,
+                  fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -121,9 +128,10 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           ListTile(
-            title: Text('4. Close the clamp on the eyelashes.',
+            title: Text('Close the clamp on the eyelashes.',
                style: TextStyle(
-                  fontSize: 25.0,
+                  fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -142,9 +150,10 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           ListTile(
-            title: Text('5. Curl your lashes in 3 sections.',
+            title: Text('Curl your lashes in 3 sections.',
                 style: TextStyle(
-                  fontSize: 25.0,
+                  fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -164,9 +173,10 @@ class MascaraTools extends StatelessWidget {
             height: 10.0,
           ),
           Image.asset('assets/metalashcomb.jpg'),
-          Text('Metal lash comb',
+          Text('2. Metal lash comb',
              style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -176,7 +186,8 @@ class MascaraTools extends StatelessWidget {
           ListTile(
             title: Text('How to use a metal lash comb',
                style: TextStyle(
-                  fontSize: 25.0,
+                  fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -211,13 +222,15 @@ class MascaraTools extends StatelessWidget {
           Text('3. Eyelash serum',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
           ListTile(
             title: Text('How to use Eyelash Serum',
                style: TextStyle(
-                  fontSize: 25.0,
+                  fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),

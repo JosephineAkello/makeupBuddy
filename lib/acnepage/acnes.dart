@@ -31,6 +31,7 @@ class Acnes extends StatelessWidget {
               'What is acne?',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -47,6 +48,7 @@ class Acnes extends StatelessWidget {
               'Causes',
               style: TextStyle(
                 fontSize: 25.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold,
               ),
@@ -74,6 +76,7 @@ class Acnes extends StatelessWidget {
               'Facts on Acnes',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -100,6 +103,7 @@ class Acnes extends StatelessWidget {
               'How to handle Acnes',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -124,6 +128,7 @@ class Acnes extends StatelessWidget {
               style: TextStyle(
                   fontSize: 25.0,
                   fontFamily: 'Raleway',
+                  color: Colors.purple,
                   fontWeight: FontWeight.bold),
             ),
             Text(
@@ -140,6 +145,7 @@ class Acnes extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -160,6 +166,7 @@ class Acnes extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -178,6 +185,7 @@ class Acnes extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -200,6 +208,7 @@ class Acnes extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -218,6 +227,7 @@ class Acnes extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),

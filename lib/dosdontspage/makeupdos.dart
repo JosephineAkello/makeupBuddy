@@ -27,6 +27,7 @@ class MakeupDos extends StatelessWidget {
                     'Concealor',
                     style: TextStyle(
                         fontSize: 25.0,
+                        color: Colors.purple,
                         fontFamily: 'Raleway',
                         fontWeight: FontWeight.bold),
                   ),
@@ -44,6 +45,7 @@ class MakeupDos extends StatelessWidget {
                     'Makeup Brushes',
                     style: TextStyle(
                         fontSize: 25.0,
+                        color: Colors.purple,
                         fontFamily: 'Raleway',
                         fontWeight: FontWeight.bold),
                   ),
@@ -60,6 +62,7 @@ class MakeupDos extends StatelessWidget {
                     'Waterproof maskara',
                     style: TextStyle(
                         fontSize: 25.0,
+                        color: Colors.purple,
                         fontFamily: 'Raleway',
                         fontWeight: FontWeight.bold),
                   ),
@@ -76,6 +79,7 @@ class MakeupDos extends StatelessWidget {
                     'Lipsticks',
                     style: TextStyle(
                         fontSize: 25.0,
+                        color: Colors.purple,
                         fontFamily: 'Raleway',
                         fontWeight: FontWeight.bold),
                   ),
@@ -94,6 +98,7 @@ class MakeupDos extends StatelessWidget {
                     'Foundation',
                     style: TextStyle(
                         fontSize: 25.0,
+                        color: Colors.purple,
                         fontFamily: 'Raleway',
                         fontWeight: FontWeight.bold),
                   ),
@@ -111,6 +116,7 @@ class MakeupDos extends StatelessWidget {
                     'Wash Face',
                     style: TextStyle(
                         fontSize: 25.0,
+                        color: Colors.purple,
                         fontFamily: 'Raleway',
                         fontWeight: FontWeight.bold),
                   ),
@@ -126,6 +132,7 @@ class MakeupDos extends StatelessWidget {
                     'Professional Makeup',
                     style: TextStyle(
                         fontSize: 25.0,
+                        color: Colors.purple,
                         fontFamily: 'Raleway',
                         fontWeight: FontWeight.bold),
                   ),

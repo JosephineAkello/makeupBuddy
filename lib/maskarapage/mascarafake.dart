@@ -5,7 +5,7 @@ class FakeMascara extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Applying mascara with Fake eyelashes'),
-        backgroundColor: Colors.lightBlue[100],
+        backgroundColor: Colors.pink,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -17,6 +17,7 @@ class FakeMascara extends StatelessWidget {
                 '1. Prep Lashes',
                 style: TextStyle(
                     fontSize: 25.0,
+                    color: Colors.purple,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold),
               ),
@@ -36,6 +37,7 @@ class FakeMascara extends StatelessWidget {
                 '2. Apply Glue to the Eyelash',
                 style: TextStyle(
                     fontSize: 25.0,
+                    color: Colors.purple,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold),
               ),
@@ -59,6 +61,7 @@ class FakeMascara extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 25.0,
                     fontFamily: 'Raleway',
+                    color: Colors.purple,
                     fontWeight: FontWeight.bold),
               ),
               subtitle: Text(
@@ -77,6 +80,7 @@ class FakeMascara extends StatelessWidget {
                 '4. Adhere the Strip to Your Lash Line',
                 style: TextStyle(
                     fontSize: 25.0,
+                    color: Colors.purple,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold),
               ),
@@ -96,6 +100,7 @@ class FakeMascara extends StatelessWidget {
                 '5. Hide Seams',
                 style: TextStyle(
                     fontSize: 25.0,
+                    color: Colors.purple,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold),
               ),
@@ -116,6 +121,7 @@ class FakeMascara extends StatelessWidget {
                 " Mascara with False Eyelashes Do’s: ",
                 style: TextStyle(
                     fontSize: 25.0,
+                    color: Colors.purple,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold),
               ),
@@ -148,6 +154,7 @@ class FakeMascara extends StatelessWidget {
                 'Mascara with False Eyelashes Don’ts:',
                 style: TextStyle(
                     fontSize: 25.0,
+                    color: Colors.purple,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold),
               ),

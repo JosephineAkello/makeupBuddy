@@ -49,6 +49,7 @@ class Lipsticks extends StatelessWidget {
             'Shades of Lipsticks',
             style: TextStyle(
                 fontSize: 25.0,
+                
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -58,6 +59,7 @@ class Lipsticks extends StatelessWidget {
                 'Rose pink lipsticks',
                 style: TextStyle(
                     fontSize: 20.0,
+                    color: Colors.purple,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold),
               ),
@@ -79,6 +81,7 @@ class Lipsticks extends StatelessWidget {
                   style: TextStyle(
                       fontSize: 20.0,
                       fontFamily: 'Raleway',
+                      color: Colors.purple,
                       fontWeight: FontWeight.bold),
                 ),
                 Image.asset('assets/copperbrown.jpg'),
@@ -102,6 +105,7 @@ class Lipsticks extends StatelessWidget {
                   'Taupe lipsticks',
                   style: TextStyle(
                       fontSize: 20.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -123,6 +127,7 @@ class Lipsticks extends StatelessWidget {
             'Fuschia Lipsticks',
             style: TextStyle(
                 fontSize: 20.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -147,6 +152,7 @@ class Lipsticks extends StatelessWidget {
             'ChocolateBrown lipsticks',
             style: TextStyle(
                 fontSize: 20.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -168,6 +174,7 @@ class Lipsticks extends StatelessWidget {
             'Peach Lipsticks',
             style: TextStyle(
                 fontSize: 20.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -189,6 +196,7 @@ class Lipsticks extends StatelessWidget {
             'Bronze Lipsticks',
             style: TextStyle(
                 fontSize: 20.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -210,6 +218,7 @@ class Lipsticks extends StatelessWidget {
             'Magenta Lipsticks',
             style: TextStyle(
                 fontSize: 20.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -230,6 +239,7 @@ class Lipsticks extends StatelessWidget {
             'Nude Lipsticks',
             style: TextStyle(
                 fontSize: 20.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -251,6 +261,7 @@ class Lipsticks extends StatelessWidget {
             'Red Lipsticks',
             style: TextStyle(
                 fontSize: 20.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -272,6 +283,7 @@ class Lipsticks extends StatelessWidget {
             'Crazy look',
             style: TextStyle(
                 fontSize: 20.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),

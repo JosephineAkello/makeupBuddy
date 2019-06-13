@@ -39,6 +39,7 @@ class MakeupDonts extends StatelessWidget {
                   'Foundation',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -52,6 +53,7 @@ class MakeupDonts extends StatelessWidget {
                   'Smokey Eyes',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -66,6 +68,7 @@ class MakeupDonts extends StatelessWidget {
                   'Lip Liner',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -80,6 +83,7 @@ class MakeupDonts extends StatelessWidget {
                   'Fake lashes',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -97,6 +101,7 @@ class MakeupDonts extends StatelessWidget {
                   'Concealor',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -112,6 +117,7 @@ class MakeupDonts extends StatelessWidget {
                   'Maskara Wand',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -128,6 +134,7 @@ class MakeupDonts extends StatelessWidget {
                   'Sleep',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -144,6 +151,7 @@ class MakeupDonts extends StatelessWidget {
                   'Makeup Sponge',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -160,6 +168,7 @@ class MakeupDonts extends StatelessWidget {
                   style: TextStyle(
                       fontSize: 25.0,
                       fontFamily: 'Raleway',
+                      color: Colors.purple,
                       fontWeight: FontWeight.bold),
                 ),
                 subtitle: Text(
@@ -176,6 +185,7 @@ class MakeupDonts extends StatelessWidget {
                   'Makeup trends',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),

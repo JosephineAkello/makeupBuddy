@@ -23,6 +23,7 @@ class Eyebrows extends StatelessWidget {
                   '1. Consider the shape of your eyebrows',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),
@@ -56,7 +57,7 @@ class Eyebrows extends StatelessWidget {
                     Text(
                       'Thin eyebrows',
                       style: TextStyle(
-                          fontSize: 25.0,
+                          fontSize: 20.0,
                           fontFamily: 'Raleway',
                           fontWeight: FontWeight.bold),
                     ),
@@ -82,6 +83,7 @@ class Eyebrows extends StatelessWidget {
                 '2. Eyebrows waxing',
                 style: TextStyle(
                     fontSize: 25.0,
+                    color: Colors.purple,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold),
               ),
@@ -134,6 +136,7 @@ class Eyebrows extends StatelessWidget {
                   '3. Eyebrows shaping kits',
                   style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.purple,
                       fontFamily: 'Raleway',
                       fontWeight: FontWeight.bold),
                 ),

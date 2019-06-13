@@ -35,6 +35,7 @@ class DarkLips extends StatelessWidget {
               'Step 1: Apply Concealor',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -58,6 +59,7 @@ class DarkLips extends StatelessWidget {
               'Step 2: Add some extra coverage',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -79,6 +81,7 @@ class DarkLips extends StatelessWidget {
               'Step 3: Place a lipliner',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -101,6 +104,7 @@ class DarkLips extends StatelessWidget {
               ' Step 4: Layer the lipstick on',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),

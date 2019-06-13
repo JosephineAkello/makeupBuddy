@@ -34,11 +34,12 @@ class NailEnhance extends StatelessWidget {
             'Required tools',
             style: TextStyle(
                 fontSize: 25.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
           Text(
-            ' 1. Artificial tips: \n\n'
+            ' 1. Artificial tips: \n'
                 'There are several types of nail tips available in market'
                 'like white clear, colored, glitter, with design etc.These '
                 'tips are basically made of plastic.Get your preferred type'
@@ -53,6 +54,7 @@ class NailEnhance extends StatelessWidget {
             'Steps to Enhancing nail tips',
             style: TextStyle(
                 fontSize: 25.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -87,7 +89,10 @@ class NailEnhance extends StatelessWidget {
           ),
           Card(
             color: Colors.white70,
-            child: Text('Push your cuticles back'),
+            child: Text(
+              'Push your cuticles back',
+              style: TextStyle(fontSize: 18.0),
+            ),
           ),
           Text(
             'Step 3',
@@ -109,7 +114,7 @@ class NailEnhance extends StatelessWidget {
           ),
           Text(
             'Step 4',
-           style: TextStyle(
+            style: TextStyle(
                 color: Colors.purple,
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
@@ -127,7 +132,7 @@ class NailEnhance extends StatelessWidget {
           ),
           Text(
             'Step 5',
-           style: TextStyle(
+            style: TextStyle(
                 color: Colors.purple,
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
@@ -187,7 +192,7 @@ class NailEnhance extends StatelessWidget {
           ),
           Text(
             'Step 8',
-           style: TextStyle(
+            style: TextStyle(
                 color: Colors.purple,
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
@@ -205,7 +210,7 @@ class NailEnhance extends StatelessWidget {
           ),
           Text(
             'Step 9',
-           style: TextStyle(
+            style: TextStyle(
                 color: Colors.purple,
                 fontSize: 25.0,
                 fontFamily: 'Raleway',

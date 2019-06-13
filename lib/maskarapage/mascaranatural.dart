@@ -17,6 +17,7 @@ class NaturalMascara extends StatelessWidget {
               'Choose your Favorite Maskara',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -24,15 +25,15 @@ class NaturalMascara extends StatelessWidget {
               child: Text(
                   'Decide on what kind of maskara you want to use,'
                   'considering\n'
-                  '1. Choose your favorite Color shade,\n'
+                  '1. Choose your favorite Color shade,\n\n'
                   '3. If your lashes are uneven in length or damaged,'
-                  'check the ingredients on the mascara\n'
+                  'check the ingredients on the mascara\n\n'
                   '4. Use waterproof mascara only for special events,'
                   'like if you’re going to a pool party or a movie'
-                  'that might make you cry\n'
+                  'that might make you cry\n\n'
                   '5. Look for a Eyelash curler with a rounded rubber'
                   'pad, which will help curl your lash instead of bend'
-                  'it at a sharp angle.',
+                  'it at a sharp angle.\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -41,6 +42,7 @@ class NaturalMascara extends StatelessWidget {
               'Apply any other makeup First',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -50,7 +52,7 @@ class NaturalMascara extends StatelessWidget {
                   'or any other eye makeup, brush'
                   'it on before you do your mascara.This will ensure'
                   'that you don’t smudge any of your mascara by trying'
-                  'to put other products on around it.',
+                  'to put other products on around it.\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -61,6 +63,7 @@ class NaturalMascara extends StatelessWidget {
             Text(
               'Curl your lashes first',
               style: TextStyle(
+                color: Colors.purple,
                   fontSize: 25.0,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
@@ -71,7 +74,7 @@ class NaturalMascara extends StatelessWidget {
                   'lashes as possible without pinching your skin'
                   'If you don`t have a curler or you`re too afraid'
                   'to use one, use your fingertips to push up and'
-                  'curl wet lashes.',
+                  'curl wet lashes.\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -84,6 +87,7 @@ class NaturalMascara extends StatelessWidget {
                   'back and forth instead of pumping it up and down. ',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -91,7 +95,7 @@ class NaturalMascara extends StatelessWidget {
               child: Text(
                   'Twisting will allow the brush to pick up the mascara,'
                   'which is what most people think they are doing when'
-                  'they pump the brush in the tube.',
+                  'they pump the brush in the tube.\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -103,13 +107,14 @@ class NaturalMascara extends StatelessWidget {
               'Wipe off excess mascara on a tissue or on the lip of the tube',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
             Card(
               child: Text(
                   'Too much product can lead to clumping. Giving the wand'
-                  'a little wipe will leave you with just the right amount.',
+                  'a little wipe will leave you with just the right amount.\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -121,6 +126,7 @@ class NaturalMascara extends StatelessWidget {
               'Look up to lift your lashes.',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -130,7 +136,7 @@ class NaturalMascara extends StatelessWidget {
                   'their peripheral vision.'
                   'If you are afraid you are going to blink when you approach'
                   'your lashes with the wand, open your mouth.'
-                  "It's harder to blink when your mouth is wide open.",
+                  "It's harder to blink when your mouth is wide open.\n",
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -143,6 +149,7 @@ class NaturalMascara extends StatelessWidget {
                   'it back and forth a little',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -150,7 +157,7 @@ class NaturalMascara extends StatelessWidget {
               child: Text(
                   'You want the most product to be applied to the roots,'
                   'which will make your lashes look longer and keep them'
-                  'from getting weighed down on the tips',
+                  'from getting weighed down on the tips\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -162,13 +169,14 @@ class NaturalMascara extends StatelessWidget {
               'Pull the wand out toward the tips of your lashes with'
                   'a zig-zag motion, or another little wiggle',
               style: TextStyle(
+                color: Colors.purple,
                   fontSize: 25.0,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
             Card(
               child: Text(
-                  'The zig-zag adds length and volume,and can reduce clumping',
+                  'The zig-zag adds length and volume,and can reduce clumping\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -180,6 +188,7 @@ class NaturalMascara extends StatelessWidget {
               'Go over your lashes with a second coat.',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -187,7 +196,7 @@ class NaturalMascara extends StatelessWidget {
               child: Text(
                   'Mix mascaras to combine their specialties. For example,'
                   'you could use lengthening mascara for one layer, then'
-                  'add a layer of thickening mascara on top.',
+                  'add a layer of thickening mascara on top.\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -200,6 +209,7 @@ class NaturalMascara extends StatelessWidget {
                   "of your eyelid.",
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -211,7 +221,7 @@ class NaturalMascara extends StatelessWidget {
                   "degree angle (don't worry, you can bend"
                   'it back).This will make it easy to brush'
                   'those inner lashes without getting mascara'
-                  'all over your face.',
+                  'all over your face.\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -223,6 +233,7 @@ class NaturalMascara extends StatelessWidget {
               'Put mascara only on the roots of the lower lashes, ',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -234,7 +245,7 @@ class NaturalMascara extends StatelessWidget {
                   'apply your mascara at the roots of the lashes'
                   'and lift up and away as you get closer to the'
                   'tips. If you apply too much, simply brush or pull'
-                  'it off of the tips with your fingers.',
+                  'it off of the tips with your fingers.\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -246,6 +257,7 @@ class NaturalMascara extends StatelessWidget {
               'Remove any mistakes with a cotton swab.',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -254,7 +266,7 @@ class NaturalMascara extends StatelessWidget {
                   'If you get mascara on your face or eyelid, allow'
                   "it to dry so you don't smear it and make things worse"
                   'Once dry,put a bit of moisturizer on a cotton swab'
-                  'and press it to the mascara spot.',
+                  'and press it to the mascara spot.\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -266,6 +278,7 @@ class NaturalMascara extends StatelessWidget {
               'De-clump with a clean mascara wand.',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -274,7 +287,7 @@ class NaturalMascara extends StatelessWidget {
                   'Either use a disposable wand or repurpose an old one'
                   '(wash it thoroughly with soap and water first).'
                   'Comb through the top and bottom of the lash, spinning'
-                  'the brush as you sweep forward',
+                  'the brush as you sweep forward \n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -286,6 +299,7 @@ class NaturalMascara extends StatelessWidget {
               'Thicken your lashes even further with baby powder',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -295,7 +309,7 @@ class NaturalMascara extends StatelessWidget {
                   'voluminous lashes you want,'
                   'try this trick. Apply one coat of mascara,'
                   'then dust your lashes with translucent powder'
-                  'or baby powder',
+                  'or baby powder\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),
@@ -307,6 +321,7 @@ class NaturalMascara extends StatelessWidget {
               'Remove your mascara every night with an eye makeup remover.',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -314,7 +329,7 @@ class NaturalMascara extends StatelessWidget {
               child: Text(
                   'It might not seem like a big deal, but it can'
                   'dry out your lashes at night and cause them'
-                  'to become brittle and fall out',
+                  'to become brittle and fall out\n',
                   style: TextStyle(
                     fontSize: 18.0,
                   )),

@@ -17,6 +17,7 @@ class SmallLips extends StatelessWidget {
             'Step 1: Exfoliate your lips',
             style: TextStyle(
                 fontSize: 25.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -38,6 +39,7 @@ class SmallLips extends StatelessWidget {
             'Step 2: Use primer',
             style: TextStyle(
                 fontSize: 25.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -58,6 +60,7 @@ class SmallLips extends StatelessWidget {
             style: TextStyle(
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10.0),
@@ -79,6 +82,7 @@ class SmallLips extends StatelessWidget {
             style: TextStyle(
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10.0),
@@ -106,6 +110,7 @@ class SmallLips extends StatelessWidget {
               style: TextStyle(
                   fontSize: 25.0,
                   fontFamily: 'Raleway',
+                  
                   fontWeight: FontWeight.bold,
                   color: Colors.white),
             ),

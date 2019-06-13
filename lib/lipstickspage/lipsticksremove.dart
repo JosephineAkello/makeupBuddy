@@ -17,6 +17,7 @@ class RemoveLipsticks extends StatelessWidget {
             'Step 1: Swipe off some lip balm.',
             style: TextStyle(
                 fontSize: 25.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -36,6 +37,7 @@ class RemoveLipsticks extends StatelessWidget {
             'Step 2: Exfoliate your lips.',
             style: TextStyle(
                 fontSize: 25.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -54,6 +56,7 @@ class RemoveLipsticks extends StatelessWidget {
             'Step 3: Wipe your lips with warm wash clothe',
             style: TextStyle(
                 fontSize: 25.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -76,6 +79,7 @@ class RemoveLipsticks extends StatelessWidget {
             style: TextStyle(
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10.0),
@@ -92,6 +96,7 @@ class RemoveLipsticks extends StatelessWidget {
             style: TextStyle(
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10.0),
@@ -109,6 +114,7 @@ class RemoveLipsticks extends StatelessWidget {
             style: TextStyle(
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10.0),
@@ -125,6 +131,7 @@ class RemoveLipsticks extends StatelessWidget {
             style: TextStyle(
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10.0),
@@ -144,6 +151,7 @@ class RemoveLipsticks extends StatelessWidget {
             style: TextStyle(
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10.0),
@@ -161,6 +169,7 @@ class RemoveLipsticks extends StatelessWidget {
             style: TextStyle(
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 10.0),
@@ -181,6 +190,7 @@ class RemoveLipsticks extends StatelessWidget {
             style: TextStyle(
                 fontSize: 25.0,
                 fontFamily: 'Raleway',
+                color: Colors.purple,
                 fontWeight: FontWeight.bold),
           ),
           Image.asset('assets/cucumber.jpg'),

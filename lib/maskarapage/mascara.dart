@@ -22,6 +22,7 @@ class Mascara extends StatelessWidget {
             'Mascara  Essentials',
             style: TextStyle(
                 fontSize: 25.0,
+                color: Colors.purple,
                 fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold),
           ),
@@ -36,7 +37,7 @@ class Mascara extends StatelessWidget {
             child: Text(
               'Mascara tools',
               style: TextStyle(
-                fontSize: 18.0,
+                fontSize: 20.0,
                 color: Colors.white
               ),
             ),
@@ -56,7 +57,7 @@ class Mascara extends StatelessWidget {
             child: Text(
               'Mascara with natural eyelashes',
               style: TextStyle(
-                fontSize: 18.0,
+                fontSize: 20.0,
                  color: Colors.white
               ),
             ),
@@ -76,8 +77,9 @@ class Mascara extends StatelessWidget {
             child: Text(
               'Applying false eyelashes',
               style: TextStyle(
-                fontSize: 18.0,
+                fontSize: 20.0,
                  color: Colors.white
+                 
               ),
             ),
             onPressed: () {

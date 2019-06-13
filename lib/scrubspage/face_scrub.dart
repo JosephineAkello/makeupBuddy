@@ -7,7 +7,7 @@ class FaceScrub extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Face scrubs'),
-        backgroundColor: Colors.lightBlue[100],
+        backgroundColor: Colors.pink,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.0),
@@ -38,6 +38,7 @@ class FaceScrub extends StatelessWidget {
               'Various Skin Types',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -59,6 +60,7 @@ class FaceScrub extends StatelessWidget {
               'Normal skin',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -82,6 +84,7 @@ class FaceScrub extends StatelessWidget {
               'Sensitive skin',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -109,6 +112,7 @@ class FaceScrub extends StatelessWidget {
               'Oily skin',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -135,6 +139,7 @@ class FaceScrub extends StatelessWidget {
               'Combination Skin',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -159,6 +164,7 @@ class FaceScrub extends StatelessWidget {
               'Dry skin',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -182,6 +188,7 @@ class FaceScrub extends StatelessWidget {
               'Preference',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -208,6 +215,7 @@ class FaceScrub extends StatelessWidget {
               'When to use Face Scrub?',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),

@@ -5,7 +5,7 @@ class ModernScrubs extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Off-the-shelf FaceScrubs'),
-        backgroundColor: Colors.lightBlue[100],
+        backgroundColor: Colors.pink,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.0),
@@ -28,6 +28,7 @@ class ModernScrubs extends StatelessWidget {
               'St. Ives Nourished & Smooth Face Scrub and Mask',
               style: TextStyle(
                   fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -55,6 +56,7 @@ class ModernScrubs extends StatelessWidget {
               'Acure Brilliantly Brightening Facial Scrub',
               style: TextStyle(
                   fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -83,6 +85,7 @@ class ModernScrubs extends StatelessWidget {
               'Dermalogica Daily Microfoliant',
               style: TextStyle(
                   fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -112,6 +115,7 @@ class ModernScrubs extends StatelessWidget {
               ' St. Ives Fresh Skin Apricot Scrub',
               style: TextStyle(
                   fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -139,6 +143,7 @@ class ModernScrubs extends StatelessWidget {
               'Murad AHA/BHA Exfoliating Cleanser',
               style: TextStyle(
                   fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -169,6 +174,7 @@ class ModernScrubs extends StatelessWidget {
               style: TextStyle(
                   fontSize: 20.0,
                   fontFamily: 'Raleway',
+                  color: Colors.purple,
                   fontWeight: FontWeight.bold),
             ),
             SizedBox(
@@ -196,6 +202,7 @@ class ModernScrubs extends StatelessWidget {
               'Dr. Brandt Microdermabrasion Skin Exfoliant',
               style: TextStyle(
                   fontSize: 20.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -226,6 +233,7 @@ class ModernScrubs extends StatelessWidget {
               style: TextStyle(
                   fontSize: 20.0,
                   fontFamily: 'Raleway',
+                  color: Colors.purple,
                   fontWeight: FontWeight.bold),
             ),
             SizedBox(
@@ -254,6 +262,7 @@ class ModernScrubs extends StatelessWidget {
               style: TextStyle(
                   fontSize: 20.0,
                   fontFamily: 'Raleway',
+                  color: Colors.purple,
                   fontWeight: FontWeight.bold),
             ),
             SizedBox(
@@ -282,6 +291,7 @@ class ModernScrubs extends StatelessWidget {
               style: TextStyle(
                   fontSize: 20.0,
                   fontFamily: 'Raleway',
+                  color: Colors.purple,
                   fontWeight: FontWeight.bold),
             ),
             SizedBox(

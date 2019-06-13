@@ -10,9 +10,9 @@ class Lipliner extends StatelessWidget {
         ),
         backgroundColor: Colors.pink,
       ),
-      body: Container(
+      body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
-        height: 500,
+        
         child: Column(
           children: <Widget>[
             Image.asset('assets/lipliner.png'),
@@ -23,6 +23,7 @@ class Lipliner extends StatelessWidget {
               'Step 1: Use your finger',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -41,6 +42,7 @@ class Lipliner extends StatelessWidget {
               'Step 2: Finish the look',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),

@@ -18,6 +18,7 @@ class EyebrowShape extends StatelessWidget {
                 '1st Step, Wash face regularly',
                 style: TextStyle(
                     fontSize: 25.0,
+                    color: Colors.purple,
                     fontFamily: 'Raleway',
                     fontWeight: FontWeight.bold),
               ),
@@ -32,6 +33,7 @@ class EyebrowShape extends StatelessWidget {
               '2.Find an ideal brow',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -50,6 +52,7 @@ class EyebrowShape extends StatelessWidget {
               '3. Pick a brow based on your face',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -81,6 +84,7 @@ class EyebrowShape extends StatelessWidget {
               style: TextStyle(
                   fontSize: 25.0,
                   fontFamily: 'Raleway',
+                  color: Colors.purple,
                   fontWeight: FontWeight.bold),
             ),
             subtitle: Image.asset('assets/tweezers.jpg'),
@@ -90,6 +94,7 @@ class EyebrowShape extends StatelessWidget {
               '5. Outline the shape you want',
               style: TextStyle(
                   fontSize: 25.0,
+                  color: Colors.purple,
                   fontFamily: 'Raleway',
                   fontWeight: FontWeight.bold),
             ),
@@ -119,6 +124,7 @@ class EyebrowShape extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 25.0,
                     fontFamily: 'Raleway',
+                    color: Colors.purple,
                     fontWeight: FontWeight.bold),
               ),
               subtitle: Column(
@@ -145,6 +151,7 @@ class EyebrowShape extends StatelessWidget {
               style: TextStyle(
                   fontSize: 25.0,
                   fontFamily: 'Raleway',
+                  color: Colors.purple,
                   fontWeight: FontWeight.bold),
             ),
             subtitle: Column(
@@ -172,6 +179,7 @@ class EyebrowShape extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 25.0,
                     fontFamily: 'Raleway',
+                    color: Colors.purple,
                     fontWeight: FontWeight.bold),
               ),
               subtitle: Column(
