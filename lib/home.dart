@@ -7,13 +7,12 @@ import 'maskarapage/mascara.dart';
 import 'nailspage/nails.dart';
 import 'scrubspage/face_scrub.dart';
 import 'dosdontspage/makeupdonts.dart';
+import 'lipstickspage/lipstickmore.dart';
 
 class Home extends StatelessWidget {
   Widget build(context) {
     return MaterialApp(
-        theme: ThemeData(
-            primaryColor: Colors.pink, 
-            fontFamily: 'Roboto'),
+        theme: ThemeData(primaryColor: Colors.pink, fontFamily: 'Roboto'),
         title: 'Makeup budyy',
         debugShowCheckedModeBanner: false,
         home: HomeScreen());
@@ -30,15 +29,15 @@ class HomeScreen extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      body: Container(
-        child: Image.asset(
-          'assets/shelf.jpg',
-          fit: BoxFit.cover,
-          height: double.infinity,
-          width: double.infinity,
-          alignment: Alignment.center,
-        ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.navigate_next),
+        backgroundColor: Colors.purple,
+        onPressed: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => Morelipsticks()));
+        },
       ),
+      body: Lipsticks(),
       drawer: Drawer(
         child: ListView(
           children: <Widget>[
@@ -47,6 +46,17 @@ class HomeScreen extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.pink,
               ),
+            ),
+            ListTile(
+              title: Text('Lipsticks'),
+              trailing: Icon(
+                Icons.opacity,
+                color: Colors.purpleAccent,
+              ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => HomeScreen()));
+              },
             ),
             ListTile(
               title: Text('Facials'),
@@ -81,17 +91,7 @@ class HomeScreen extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => Mascara()));
               },
             ),
-            ListTile(
-              title: Text('Lipsticks'),
-              trailing: Icon(
-                Icons.opacity,
-                color: Colors.purpleAccent,
-              ),
-              onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Lipsticks()));
-              },
-            ),
+            
             ListTile(
               title: Text('Facescrub'),
               trailing: Icon(
