@@ -33,23 +33,23 @@ class NailDetailsState extends State<NailDetails> {
                 footer: Container(
                   color: Colors.white,
                   child: ListTile(
-                    leading: Text(
-                      widget.naildetailsname,
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold, fontSize: 20.0),
-                          
-                    ),
-                  trailing: Icon(
-                              Icons.favorite,
-                              color: Colors.red,
-                            )
-                  ),
+                      leading: Text(
+                        widget.naildetailsname,
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 20.0),
+                      ),
+                      trailing: Icon(
+                        Icons.favorite,
+                        color: Colors.red,
+                      )),
                 ))),
         Padding(
           padding: EdgeInsets.all(18.0),
-          child:Text(
-          widget.naildetailsdescription,style: TextStyle(fontSize: 18.0),
-        ),),
+          child: Text(
+            widget.naildetailsdescription,
+            style: TextStyle(fontSize: 18.0),
+          ),
+        ),
       ]),
     );
   }
