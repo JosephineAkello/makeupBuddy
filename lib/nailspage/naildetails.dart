@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 
-class NailDescribe extends StatelessWidget{
+class NailDetails extends StatefulWidget{
+createState(){
+  return NailDetailsState();
+}
+}  
+
+class NailDetailsState extends State<NailDetails>{
   Widget build(context){
     return Scaffold(
       appBar: AppBar(
